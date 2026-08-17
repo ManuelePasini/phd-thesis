@@ -5,6 +5,9 @@
 \usepackage{notes}
 \usepackage{shortcuts}
 
+\definecolor{mpgreen}{RGB}{76, 153, 0}
+\newcommand{\mpa}[1]{{\color{mpgreen}#1}}
+
 \mainlinespacing{1.241} % line spacing in mainmatter, comment to default (1)
 
 \begin{document}
@@ -12,7 +15,7 @@
 \frontmatter
 \input{front}
 
-\begin{abstract}	
+\begin{abstract}
 Max 2000 characters, strict.
 \end{abstract}
 
@@ -35,35 +38,33 @@ Optional. Max 1 page.
 %----------------------------------------------------------------------------------------
 \chapter{Introduction}
 \label{chap:introduction}
+\input{parts/introduction.tex}
 %----------------------------------------------------------------------------------------
 
-Write your intro here.
-\sidenote{Add sidenotes in this way. They are named after the author of the thesis}
-
-\paragraph{Structure of the Thesis}
-
-\note{Racall to describe the structure of the paper}
+%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\part{Background}
+\part{Foundations}
 parli del ruolo sempre più importante e pervasivo dei Digital Twins, collega in qualche modo anche alla parte agentica/LLM. Tutte tecnologie che girano su miriadi di dati, che sono sempre più eterogenei e che arrivano a velocità sempre più elevate e sono estremamente eterogenei. queste tecnologie sono inoltre estremamente data intensive quindi c'è la necessità di avere basi di dati in grado di supportare queste tecnologie, integrare i dati e soddisfare  i requisiti in termini di performance, c'è una sorta di ennesimo paradigm shift con un focus su tecnologie streaming e controllo in tempo reale.
-
+%\input{parts/background/background.tex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{An evolving and intertwined world}
 \section{Digitalization -- from data to knowledge}
 Introduzione "teorica". Parla primi passi di digitalizzazione, business intelligence, piramide, crispdm. Parla di trasformare dati in conoscenza.
 \section{The role of data in a digital society}
+Legge Moore
+Legge Martec
+Legge ritorni accelerati
 parla di iot e industria 4.0, di shift da puramente statici relazionali al mondo big data, NoSQL, data lake, evoluzione da DWH a DL o Lakehouse, nascita di aziende e soluzioni specifiche per gestire sistemi informativi, data mining, importanza dei dati per le aziende, CSM, DSS.
 \section{Data is the new oil}
-parla di adesso, LLM, introduci data platform, digital twin, agenti, privacy, sicurezza, banche, di come il mondo sia totalmente incentrato sui dati e di come questa pervasività stia facendo nasacere nuove necessità e sfide per la ricerca con grandi potenziali vantaggi per la società. investimenti in data center, boom dell'AI. Introduci questione economica e l'importanza sempre più critica.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \input{parts/background/background.tex}
 
 \chapter{Digital Twins}
-\section{What are they?}
+
+\section{Behind the buzzword}
 intro e definizione digial twin
 lutions non sono in grado di soddisfare, mentre la tua proposta vuole esattamente andare a modellare tutti questi nuovi requirement.
 \section{Current solutions}
@@ -71,13 +72,16 @@ introduci la encessità di costruire top down partendo dalla modellazione della 
 \section{Challenges and research questions}
 riprendi i requisiti e esplodi
 
-\chapter{A data-oriented perspective}
+\chapter{A data oriented perspective}
 \section{Data Requirements}
+
+\mpa{DEFINISCI il problema su due dimensioni: architetturale/infrastrutturale e di semantica quindi modelli dati e governance.}
 \section{Limitations of current database technologies}
 \section{Digital Twin Platform}
-definisci i requirements
 
-I suggest referencing stuff as follows: \cref{fig:random-image} or \Cref{fig:random-image}
+% definisci i requirements
+
+%I suggest referencing stuff as follows: \cref{fig:random-image} or \Cref{fig:random-image}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -86,11 +90,12 @@ I suggest referencing stuff as follows: \cref{fig:random-image} or \Cref{fig:ran
 una digital twin platform è una data platform con anche il flusso di controllo bidirezionale, alla quale viene aggiunta una parte "agentica" intelligente in grado di analizzare i dati in entrata dal twin e prendere azioni correttive da eseguire sulla controparte fisica.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{A Digital Twin Platform for Precision Agriculture}
+\chapter{A Data Platform for Precision Agriculture}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{A data model for Digital Twin Platforms}
+\chapter{A Data Model for Digital Twins}
+
 \section{STGraph: A Multistore for Temporal Graph and Time Series}
 
 qui definisci, sulla base delle caratteristiche individuate sopra, una serie di requirement che le current so
@@ -101,7 +106,7 @@ qui definisci, sulla base delle caratteristiche individuate sopra, una serie di 
 \part{Methods and Applications}
 
 \chapter{Methods}
-\section{Process driven design of Data Platforms}
+\section{Data as a blueprint - Process driven design of Data Platforms}
 \section{LLM guided metadata exploration}
 
 \chapter{Applications}
