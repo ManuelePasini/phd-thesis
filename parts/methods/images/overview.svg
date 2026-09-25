@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   sodipodi:docname="overview.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   id="svg1"
+   version="1.1"
+   viewBox="0 0 191.38633 126.73541"
+   height="126.73541mm"
+   width="191.38635mm"
+   inkscape:export-filename="overview.pdf"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata107">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:window-maximized="1"
+     inkscape:window-y="694"
+     inkscape:window-x="-11"
+     inkscape:window-height="1526"
+     inkscape:window-width="2880"
+     inkscape:cy="-75.882878"
+     inkscape:cx="1197.7189"
+     inkscape:zoom="0.73139029"
+     inkscape:document-units="mm"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:pagecheckerboard="0"
+     inkscape:pageopacity="0.0"
+     inkscape:showpageshadow="2"
+     borderopacity="0.25"
+     bordercolor="#000000"
+     pagecolor="#ffffff"
+     id="namedview1" />
+  <defs
+     id="defs1">
+    <clipPath
+       id="clip0">
+      <rect
+         id="rect1"
+         height="264"
+         width="638"
+         y="96"
+         x="506" />
+    </clipPath>
+    <clipPath
+       id="clip1">
+      <rect
+         id="rect2"
+         height="111"
+         width="104"
+         y="96"
+         x="698" />
+    </clipPath>
+    <clipPath
+       id="clip2">
+      <rect
+         id="rect3"
+         height="111"
+         width="104"
+         y="96"
+         x="698" />
+    </clipPath>
+    <clipPath
+       id="clip3">
+      <rect
+         id="rect4"
+         height="111"
+         width="104"
+         y="96"
+         x="698" />
+    </clipPath>
+    <clipPath
+       id="clip4">
+      <rect
+         id="rect5"
+         height="59"
+         width="59"
+         y="191"
+         x="548" />
+    </clipPath>
+    <clipPath
+       id="clip5">
+      <rect
+         id="rect6"
+         height="59"
+         width="59"
+         y="191"
+         x="548" />
+    </clipPath>
+    <clipPath
+       id="clip6">
+      <rect
+         id="rect7"
+         height="59"
+         width="59"
+         y="191"
+         x="548" />
+    </clipPath>
+    <clipPath
+       id="clip0-8">
+      <rect
+         id="rect1-5"
+         height="264"
+         width="522"
+         y="96"
+         x="506" />
+    </clipPath>
+    <clipPath
+       id="clip1-9">
+      <rect
+         id="rect2-1"
+         height="111"
+         width="104"
+         y="96"
+         x="698" />
+    </clipPath>
+    <clipPath
+       id="clip2-6">
+      <rect
+         id="rect3-2"
+         height="111"
+         width="104"
+         y="96"
+         x="698" />
+    </clipPath>
+    <clipPath
+       id="clip3-4">
+      <rect
+         id="rect4-7"
+         height="111"
+         width="104"
+         y="96"
+         x="698" />
+    </clipPath>
+    <clipPath
+       id="clip4-3">
+      <rect
+         id="rect5-6"
+         height="59"
+         width="59"
+         y="191"
+         x="548" />
+    </clipPath>
+    <clipPath
+       id="clip5-0">
+      <rect
+         id="rect6-2"
+         height="59"
+         width="59"
+         y="191"
+         x="548" />
+    </clipPath>
+    <clipPath
+       id="clip6-7">
+      <rect
+         id="rect7-2"
+         height="59"
+         width="59"
+         y="191"
+         x="548" />
+    </clipPath>
+    <clipPath
+       id="clip0-9">
+      <rect
+         id="rect1-56"
+         height="264"
+         width="485"
+         y="96"
+         x="529" />
+    </clipPath>
+    <clipPath
+       id="clip1-0">
+      <rect
+         id="rect2-3"
+         height="111"
+         width="104"
+         y="96"
+         x="698" />
+    </clipPath>
+    <clipPath
+       id="clip2-0">
+      <rect
+         id="rect3-5"
+         height="111"
+         width="104"
+         y="96"
+         x="698" />
+    </clipPath>
+    <clipPath
+       id="clip3-1">
+      <rect
+         id="rect4-2"
+         height="111"
+         width="104"
+         y="96"
+         x="698" />
+    </clipPath>
+    <clipPath
+       id="clip4-30">
+      <rect
+         id="rect5-7"
+         height="59"
+         width="59"
+         y="191"
+         x="548" />
+    </clipPath>
+    <clipPath
+       id="clip5-4">
+      <rect
+         id="rect6-9"
+         height="59"
+         width="59"
+         y="191"
+         x="548" />
+    </clipPath>
+    <clipPath
+       id="clip6-5">
+      <rect
+         id="rect7-9"
+         height="59"
+         width="59"
+         y="191"
+         x="548" />
+    </clipPath>
+    <clipPath
+       id="clip0-4">
+      <rect
+         x="648"
+         y="51"
+         width="468"
+         height="267"
+         id="rect1-8" />
+    </clipPath>
+    <clipPath
+       id="clip1-2">
+      <rect
+         x="691"
+         y="169"
+         width="59"
+         height="59"
+         id="rect2-5" />
+    </clipPath>
+    <clipPath
+       id="clip2-66">
+      <rect
+         x="691"
+         y="169"
+         width="59"
+         height="59"
+         id="rect3-8" />
+    </clipPath>
+    <clipPath
+       id="clip3-2">
+      <rect
+         x="691"
+         y="169"
+         width="59"
+         height="59"
+         id="rect4-4" />
+    </clipPath>
+    <clipPath
+       id="clip4-5">
+      <rect
+         x="1035"
+         y="72"
+         width="76"
+         height="76"
+         id="rect5-9" />
+    </clipPath>
+    <clipPath
+       id="clip5-07">
+      <rect
+         x="1035"
+         y="72"
+         width="76"
+         height="76"
+         id="rect6-0" />
+    </clipPath>
+    <clipPath
+       id="clip6-1">
+      <rect
+         x="1035"
+         y="72"
+         width="76"
+         height="76"
+         id="rect7-20" />
+    </clipPath>
+    <clipPath
+       id="clip7">
+      <rect
+         x="927"
+         y="145"
+         width="30"
+         height="30"
+         id="rect8" />
+    </clipPath>
+    <clipPath
+       id="clip8">
+      <rect
+         x="927"
+         y="145"
+         width="30"
+         height="30"
+         id="rect9" />
+    </clipPath>
+    <clipPath
+       id="clip9">
+      <rect
+         x="927"
+         y="145"
+         width="30"
+         height="30"
+         id="rect10" />
+    </clipPath>
+    <clipPath
+       id="clip0-3">
+      <rect
+         x="648"
+         y="51"
+         width="468"
+         height="288"
+         id="rect1-9" />
+    </clipPath>
+    <clipPath
+       id="clip1-3">
+      <rect
+         x="691"
+         y="190"
+         width="59"
+         height="59"
+         id="rect2-59" />
+    </clipPath>
+    <clipPath
+       id="clip2-9">
+      <rect
+         x="691"
+         y="190"
+         width="59"
+         height="59"
+         id="rect3-85" />
+    </clipPath>
+    <clipPath
+       id="clip3-28">
+      <rect
+         x="691"
+         y="190"
+         width="59"
+         height="59"
+         id="rect4-8" />
+    </clipPath>
+    <clipPath
+       id="clip4-7">
+      <rect
+         x="1035"
+         y="72"
+         width="76"
+         height="76"
+         id="rect5-8" />
+    </clipPath>
+    <clipPath
+       id="clip5-1">
+      <rect
+         x="1035"
+         y="72"
+         width="76"
+         height="76"
+         id="rect6-4" />
+    </clipPath>
+    <clipPath
+       id="clip6-18">
+      <rect
+         x="1035"
+         y="72"
+         width="76"
+         height="76"
+         id="rect7-0" />
+    </clipPath>
+    <clipPath
+       id="clip7-2">
+      <rect
+         x="920"
+         y="152"
+         width="37"
+         height="36"
+         id="rect8-0" />
+    </clipPath>
+    <clipPath
+       id="clip8-8">
+      <rect
+         x="920"
+         y="152"
+         width="37"
+         height="36"
+         id="rect9-3" />
+    </clipPath>
+    <clipPath
+       id="clip9-4">
+      <rect
+         x="920"
+         y="152"
+         width="37"
+         height="36"
+         id="rect10-1" />
+    </clipPath>
+    <clipPath
+       id="clip0-2">
+      <rect
+         x="663"
+         y="161"
+         width="467"
+         height="297"
+         id="rect1-7" />
+    </clipPath>
+    <clipPath
+       id="clip1-7">
+      <rect
+         x="705"
+         y="309"
+         width="59"
+         height="59"
+         id="rect2-11" />
+    </clipPath>
+    <clipPath
+       id="clip2-5">
+      <rect
+         x="705"
+         y="309"
+         width="59"
+         height="59"
+         id="rect3-3" />
+    </clipPath>
+    <clipPath
+       id="clip3-0">
+      <rect
+         x="705"
+         y="309"
+         width="59"
+         height="59"
+         id="rect4-87" />
+    </clipPath>
+    <clipPath
+       id="clip4-76">
+      <rect
+         x="1050"
+         y="191"
+         width="75"
+         height="76"
+         id="rect5-71" />
+    </clipPath>
+    <clipPath
+       id="clip5-49">
+      <rect
+         x="1050"
+         y="191"
+         width="75"
+         height="76"
+         id="rect6-8" />
+    </clipPath>
+    <clipPath
+       id="clip6-4">
+      <rect
+         x="1050"
+         y="191"
+         width="75"
+         height="76"
+         id="rect7-6" />
+    </clipPath>
+    <clipPath
+       id="clip7-7">
+      <rect
+         x="935"
+         y="279"
+         width="36"
+         height="36"
+         id="rect8-4" />
+    </clipPath>
+    <clipPath
+       id="clip8-5">
+      <rect
+         x="935"
+         y="279"
+         width="36"
+         height="36"
+         id="rect9-39" />
+    </clipPath>
+    <clipPath
+       id="clip9-6">
+      <rect
+         x="935"
+         y="279"
+         width="36"
+         height="36"
+         id="rect10-2" />
+    </clipPath>
+    <clipPath
+       id="clip0-80">
+      <rect
+         x="663"
+         y="161"
+         width="467"
+         height="297"
+         id="rect1-52" />
+    </clipPath>
+    <clipPath
+       id="clip1-37">
+      <rect
+         x="705"
+         y="309"
+         width="59"
+         height="59"
+         id="rect2-4" />
+    </clipPath>
+    <clipPath
+       id="clip2-01">
+      <rect
+         x="705"
+         y="309"
+         width="59"
+         height="59"
+         id="rect3-0" />
+    </clipPath>
+    <clipPath
+       id="clip3-3">
+      <rect
+         x="705"
+         y="309"
+         width="59"
+         height="59"
+         id="rect4-70" />
+    </clipPath>
+    <clipPath
+       id="clip4-1">
+      <rect
+         x="1050"
+         y="191"
+         width="75"
+         height="76"
+         id="rect5-5" />
+    </clipPath>
+    <clipPath
+       id="clip5-11">
+      <rect
+         x="1050"
+         y="191"
+         width="75"
+         height="76"
+         id="rect6-20" />
+    </clipPath>
+    <clipPath
+       id="clip6-3">
+      <rect
+         x="1050"
+         y="191"
+         width="75"
+         height="76"
+         id="rect7-8" />
+    </clipPath>
+    <clipPath
+       id="clip7-4">
+      <rect
+         x="935"
+         y="279"
+         width="36"
+         height="36"
+         id="rect8-8" />
+    </clipPath>
+    <clipPath
+       id="clip8-83">
+      <rect
+         x="935"
+         y="279"
+         width="36"
+         height="36"
+         id="rect9-7" />
+    </clipPath>
+    <clipPath
+       id="clip9-2">
+      <rect
+         x="935"
+         y="279"
+         width="36"
+         height="36"
+         id="rect10-3" />
+    </clipPath>
+    <clipPath
+       id="clip0-20">
+      <rect
+         x="995"
+         y="255"
+         width="764"
+         height="486"
+         id="rect1-1" />
+    </clipPath>
+    <clipPath
+       id="clip1-8">
+      <rect
+         x="1058"
+         y="463"
+         width="88"
+         height="89"
+         id="rect2-7" />
+    </clipPath>
+    <clipPath
+       id="clip2-3">
+      <rect
+         x="1058"
+         y="463"
+         width="88"
+         height="89"
+         id="rect3-56" />
+    </clipPath>
+    <clipPath
+       id="clip3-08">
+      <rect
+         x="1058"
+         y="463"
+         width="88"
+         height="89"
+         id="rect4-1" />
+    </clipPath>
+    <clipPath
+       id="clip4-79">
+      <rect
+         x="1582"
+         y="315"
+         width="113"
+         height="114"
+         id="rect5-3" />
+    </clipPath>
+    <clipPath
+       id="clip5-2">
+      <rect
+         x="1582"
+         y="315"
+         width="113"
+         height="114"
+         id="rect6-80" />
+    </clipPath>
+    <clipPath
+       id="clip6-2">
+      <rect
+         x="1582"
+         y="315"
+         width="113"
+         height="114"
+         id="rect7-7" />
+    </clipPath>
+    <clipPath
+       id="clip7-3">
+      <rect
+         x="1402"
+         y="421"
+         width="55"
+         height="55"
+         id="rect8-5" />
+    </clipPath>
+    <clipPath
+       id="clip8-9">
+      <rect
+         x="1402"
+         y="421"
+         width="55"
+         height="55"
+         id="rect9-71" />
+    </clipPath>
+    <clipPath
+       id="clip9-27">
+      <rect
+         x="1402"
+         y="421"
+         width="55"
+         height="55"
+         id="rect10-5" />
+    </clipPath>
+    <clipPath
+       id="clip0-0">
+      <rect
+         x="995"
+         y="255"
+         width="764"
+         height="487"
+         id="rect1-3" />
+    </clipPath>
+    <clipPath
+       id="clip1-5">
+      <rect
+         x="1058"
+         y="463"
+         width="88"
+         height="89"
+         id="rect2-6" />
+    </clipPath>
+    <clipPath
+       id="clip2-96">
+      <rect
+         x="1058"
+         y="463"
+         width="88"
+         height="89"
+         id="rect3-9" />
+    </clipPath>
+    <clipPath
+       id="clip3-5">
+      <rect
+         x="1058"
+         y="463"
+         width="88"
+         height="89"
+         id="rect4-71" />
+    </clipPath>
+    <clipPath
+       id="clip4-4">
+      <rect
+         x="1582"
+         y="315"
+         width="113"
+         height="114"
+         id="rect5-2" />
+    </clipPath>
+    <clipPath
+       id="clip5-45">
+      <rect
+         x="1582"
+         y="315"
+         width="113"
+         height="114"
+         id="rect6-98" />
+    </clipPath>
+    <clipPath
+       id="clip6-32">
+      <rect
+         x="1582"
+         y="315"
+         width="113"
+         height="114"
+         id="rect7-65" />
+    </clipPath>
+    <clipPath
+       id="clip7-30">
+      <rect
+         x="1402"
+         y="421"
+         width="55"
+         height="55"
+         id="rect8-2" />
+    </clipPath>
+    <clipPath
+       id="clip8-7">
+      <rect
+         x="1402"
+         y="421"
+         width="55"
+         height="55"
+         id="rect9-9" />
+    </clipPath>
+    <clipPath
+       id="clip9-26">
+      <rect
+         x="1402"
+         y="421"
+         width="55"
+         height="55"
+         id="rect10-7" />
+    </clipPath>
+    <clipPath
+       id="clip0-00">
+      <rect
+         x="995"
+         y="255"
+         width="764"
+         height="487"
+         id="rect1-2" />
+    </clipPath>
+    <clipPath
+       id="clip1-29">
+      <rect
+         x="1058"
+         y="463"
+         width="88"
+         height="89"
+         id="rect2-2" />
+    </clipPath>
+    <clipPath
+       id="clip2-05">
+      <rect
+         x="1058"
+         y="463"
+         width="88"
+         height="89"
+         id="rect3-28" />
+    </clipPath>
+    <clipPath
+       id="clip3-45">
+      <rect
+         x="1058"
+         y="463"
+         width="88"
+         height="89"
+         id="rect4-20" />
+    </clipPath>
+    <clipPath
+       id="clip4-9">
+      <rect
+         x="1582"
+         y="315"
+         width="113"
+         height="114"
+         id="rect5-0" />
+    </clipPath>
+    <clipPath
+       id="clip5-7">
+      <rect
+         x="1582"
+         y="315"
+         width="113"
+         height="114"
+         id="rect6-3" />
+    </clipPath>
+    <clipPath
+       id="clip6-31">
+      <rect
+         x="1582"
+         y="315"
+         width="113"
+         height="114"
+         id="rect7-69" />
+    </clipPath>
+    <clipPath
+       id="clip7-0">
+      <rect
+         x="1402"
+         y="421"
+         width="55"
+         height="55"
+         id="rect8-7" />
+    </clipPath>
+    <clipPath
+       id="clip8-3">
+      <rect
+         x="1402"
+         y="421"
+         width="55"
+         height="55"
+         id="rect9-31" />
+    </clipPath>
+    <clipPath
+       id="clip9-8">
+      <rect
+         x="1402"
+         y="421"
+         width="55"
+         height="55"
+         id="rect10-57" />
+    </clipPath>
+  </defs>
+  <g
+     transform="translate(212.16347,-168.42863)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       clip-path="url(#clip0-00)"
+       transform="matrix(0.26458333,0,0,0.26458333,-483.49367,100.95988)"
+       id="g61">
+      <path
+         d="m 1025.5,419.5 h 723.35"
+         stroke="#5b9bd5"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path10" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(1654.15,313)"
+         id="text10">Service<tspan
+   font-size="24px"
+   x="6.6300001"
+   y="29"
+   id="tspan10">Graph</tspan></text>
+      <rect
+         x="1352.5"
+         y="542.5"
+         width="28"
+         height="15"
+         stroke="#000000"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect11" />
+      <rect
+         x="1317.5"
+         y="542.5"
+         width="28"
+         height="15"
+         stroke="#000000"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect12" />
+      <path
+         d="m 1342.5,584.5 c 0,-6.075 4.92,-11 11,-11 6.08,0 11,4.925 11,11 0,6.075 -4.92,11 -11,11 -6.08,0 -11,-4.925 -11,-11 z"
+         stroke="#000000"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path12" />
+      <path
+         d="M 0.389769,-0.313178 7.26306,8.24105 6.48353,8.86741 -0.389769,0.313178 Z M 10.2978,3.23702 13.1369,16.3496 0.943359,10.7533 Z"
+         transform="matrix(-1,0,0,1,1366.64,557.5)"
+         id="path13" />
+      <path
+         d="m 1331.8,557.1 13.8,10.35 -0.6,0.8 -13.8,-10.35 z m 15.5,4.75 6,12 -13.2,-2.399 z"
+         id="path14" />
+      <rect
+         x="1368.34"
+         y="606.177"
+         width="21.312"
+         height="1.64636"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect14" />
+      <rect
+         x="1368.34"
+         y="618.177"
+         width="21.312"
+         height="1.64636"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect15" />
+      <path
+         d="m 1360.81,591.111 10.02,8.093 -0.62,0.778 -10.02,-8.093 z m 11.92,2.558 5.57,12.208 -13.11,-2.873 z"
+         id="path15" />
+      <path
+         d="M 0.372027,-0.33406 6.96106,7.00383 6.21701,7.67195 -0.372027,0.33406 Z M 9.71711,1.84106 13.2702,14.7784 0.788473,9.85851 Z"
+         transform="matrix(-1,0,0,1,1378.77,619.5)"
+         id="path16" />
+      <path
+         d="m 1347.5,642 c 0,-5.799 4.7,-10.5 10.5,-10.5 5.8,0 10.5,4.701 10.5,10.5 0,5.799 -4.7,10.5 -10.5,10.5 -5.8,0 -10.5,-4.701 -10.5,-10.5 z"
+         stroke="#000000"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path17" />
+      <rect
+         x="1388.21"
+         y="672.55902"
+         width="20.577101"
+         height="1.88159"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect17" />
+      <rect
+         x="1388.21"
+         y="683.177"
+         width="20.577101"
+         height="1.64636"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect18" />
+      <rect
+         x="1343.5"
+         y="671.5"
+         width="29"
+         height="15"
+         stroke="#000000"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect19" />
+      <path
+         d="m 1399,654.5 v 8.586 h -1 V 654.5 Z m 5.5,6.586 -6,12 -6,-12 z"
+         id="path19" />
+      <path
+         d="m 1358,652.5 v 9.24 h -1 v -9.24 z m 5.5,7.24 -6,12 -6,-12 z"
+         id="path20" />
+      <path
+         d="m 1387.5,643.5 c 0,-6.075 4.92,-11 11,-11 6.08,0 11,4.925 11,11 0,6.075 -4.92,11 -11,11 -6.08,0 -11,-4.925 -11,-11 z"
+         stroke="#000000"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path21" />
+      <path
+         d="m 1391.5,584.5 c 0,-6.075 4.7,-11 10.5,-11 5.8,0 10.5,4.925 10.5,11 0,6.075 -4.7,11 -10.5,11 -5.8,0 -10.5,-4.925 -10.5,-11 z"
+         stroke="#000000"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path22" />
+      <rect
+         x="1387.5"
+         y="542.5"
+         width="29"
+         height="15"
+         stroke="#000000"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect22" />
+      <path
+         d="m 1402,557.498 0.03,6.349 -1,0.005 -0.03,-6.35 z m 5.52,4.324 -5.95,12.028 -6.05,-11.973 z"
+         id="path23" />
+      <path
+         d="M 0.34055,-0.366095 8.47392,7.19975 7.79282,7.93194 -0.34055,0.366095 Z M 10.7556,1.81051 15.4553,14.3769 2.58239,10.5968 Z"
+         transform="matrix(-1,0,0,1,1393.96,591.5)"
+         id="path24" />
+      <path
+         d="m 1378.9,619.2 6.17,8.21 -0.8,0.601 -6.17,-8.211 z m 9.37,3.306 2.41,13.197 -12,-5.985 z"
+         id="path25" />
+      <rect
+         x="1574"
+         y="583"
+         width="142"
+         height="49"
+         stroke="#000000"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#262626"
+         id="rect25" />
+      <text
+         fill="#ffffff"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="translate(1588.86,618)"
+         id="text25">Augment</text>
+      <rect
+         x="1412"
+         y="484"
+         width="110"
+         height="49"
+         stroke="#000000"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#262626"
+         id="rect26" />
+      <text
+         fill="#ffffff"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="translate(1427.45,518)"
+         id="text26">Enrich</text>
+      <path
+         d="m 1526,500.25 h 29.5 V 493 l 14.5,14.5 -14.5,14.5 v -7.25 H 1526 Z"
+         stroke="#000000"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path26" />
+      <rect
+         x="1574"
+         y="684"
+         width="142"
+         height="49"
+         stroke="#000000"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#262626"
+         id="rect27" />
+      <text
+         fill="#ffffff"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="translate(1589.61,718)"
+         id="text27">Optimize</text>
+      <path
+         d="m 1650.75,637 v 28.5 H 1658 L 1643.5,680 1629,665.5 h 7.25 V 637 Z"
+         stroke="#000000"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path27" />
+      <path
+         d="m 1424,346.167 c 0,-7.272 21.49,-13.167 48,-13.167 26.51,0 48,5.895 48,13.167 v 52.666 c 0,7.272 -21.49,13.167 -48,13.167 -26.51,0 -48,-5.895 -48,-13.167 z"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path28" />
+      <path
+         d="m 1520,346.167 c 0,7.271 -21.49,13.166 -48,13.166 -26.51,0 -48,-5.895 -48,-13.166"
+         stroke="#000000"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path29" />
+      <path
+         d="m 1424,346.167 c 0,-7.272 21.49,-13.167 48,-13.167 26.51,0 48,5.895 48,13.167 v 52.666 c 0,7.272 -21.49,13.167 -48,13.167 -26.51,0 -48,-5.895 -48,-13.167 z"
+         stroke="#000000"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path30" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="translate(1442.1,394)"
+         id="text31">Tags<tspan
+   font-size="24px"
+   x="-211.897"
+   y="224"
+   id="tspan30">Data Flow</tspan><tspan
+   font-size="24px"
+   x="-209.147"
+   y="253"
+   id="tspan31">Diagrams</tspan></text>
+      <rect
+         x="1181"
+         y="483"
+         width="152"
+         height="49"
+         stroke="#000000"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#262626"
+         id="rect31" />
+      <text
+         fill="#ffffff"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="translate(1195.78,518)"
+         id="text32">Formalize</text>
+      <path
+         d="m 1337,500.25 h 57.5 V 493 l 14.5,14.5 -14.5,14.5 v -7.25 H 1337 Z"
+         stroke="#000000"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path32" />
+      <g
+         clip-path="url(#clip1-29)"
+         id="g40">
+        <g
+           clip-path="url(#clip2-05)"
+           id="g39">
+          <g
+             clip-path="url(#clip3-45)"
+             id="g38">
+            <path
+               d="M 21.0833,75.1667 V 12.8333 H 44 v 19.25 H 66.9167 V 75.1667 Z M 49.5,15.125 60.9583,26.5833 H 49.5 Z m 0,-7.79167 H 15.5833 V 80.6667 H 72.4167 V 27.5 Z"
+               transform="matrix(1,0,0,1.01136,1058,463)"
+               id="path33" />
+            <path
+               d="m 26.5833,41.25 h 34.8334 v 3.6667 H 26.5833 Z"
+               transform="matrix(1,0,0,1.01136,1058,463)"
+               id="path34" />
+            <path
+               d="M 26.5833,33.9167 H 38.5 v 3.6666 H 26.5833 Z"
+               transform="matrix(1,0,0,1.01136,1058,463)"
+               id="path35" />
+            <path
+               d="M 26.5833,48.5833 H 61.4167 V 52.25 H 26.5833 Z"
+               transform="matrix(1,0,0,1.01136,1058,463)"
+               id="path36" />
+            <path
+               d="m 26.5833,55.9167 h 34.8334 v 3.6666 H 26.5833 Z"
+               transform="matrix(1,0,0,1.01136,1058,463)"
+               id="path37" />
+            <path
+               d="m 26.5833,63.25 h 34.8334 v 3.6667 H 26.5833 Z"
+               transform="matrix(1,0,0,1.01136,1058,463)"
+               id="path38" />
+          </g>
+        </g>
+      </g>
+      <path
+         d="m 1135,500.25 h 28.5 V 493 l 14.5,14.5 -14.5,14.5 v -7.25 H 1135 Z"
+         stroke="#000000"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path40" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(1028.28,574)"
+         id="text40">Questionnaire</text>
+      <g
+         clip-path="url(#clip4-9)"
+         id="g43">
+        <g
+           clip-path="url(#clip5-7)"
+           id="g42">
+          <g
+             clip-path="url(#clip6-31)"
+             id="g41">
+            <path
+               d="m 100.052,44.0229 c -2.001,-4.826 -7.5332,-7.0625 -12.3593,-5.0614 -4.0021,1.6479 -6.3562,5.8854 -5.7677,10.0052 L 66.7406,55.3229 C 65.0927,52.4979 62.15,50.3792 58.8542,49.7906 V 33.4292 c 4.0021,-1.0594 7.0625,-4.7084 7.0625,-9.0636 0,-5.1791 -4.2375,-9.4166 -9.4167,-9.4166 v 0 c -5.1792,0 -9.4167,4.2375 -9.4167,9.4166 0,4.3552 3.0604,8.0042 7.0625,9.0636 v 16.2437 c -3.4135,0.5886 -6.2385,2.7073 -7.8864,5.5323 L 31.075,48.849 c 0.5885,-4.1198 -1.6479,-8.3573 -5.7677,-10.0052 -4.826,-2.0011 -10.3583,0.2354 -12.3594,5.0614 -2.001,4.8261 0.2354,10.3583 5.0615,12.3594 4.0021,1.6479 8.5927,0.3531 11.0646,-3.0604 l 15.5375,6.3562 c -0.1177,0.4709 -0.1177,1.0594 -0.1177,1.5302 0,2.5896 0.8239,5.0615 2.3541,7.0625 L 34.6063,80.5125 c -3.649,-2.1187 -8.3573,-1.6479 -11.4178,1.4125 -3.6489,3.649 -3.6489,9.6521 0,13.301 3.649,3.649 9.6521,3.649 13.3011,0 3.0604,-3.0604 3.5312,-7.7687 1.4125,-11.4177 l 12.4771,-12.477 c 1.7656,1.0593 3.7666,1.6479 5.8854,1.6479 0.1177,0 0.1177,0 0.2354,0 0.1177,0 0.1177,0 0.2354,0 2.1188,0 4.1198,-0.5886 5.8854,-1.6479 l 12.4771,12.477 c -2.1187,3.649 -1.6479,8.3573 1.4125,11.5355 3.649,3.6489 9.6521,3.6489 13.3011,0 3.6489,-3.649 3.6489,-9.6521 0,-13.3011 C 86.751,78.9823 82.0427,78.5115 78.3938,80.6302 L 66.1521,68.2708 c 1.5302,-2.001 2.3542,-4.3552 2.3542,-7.0625 0,-0.4708 0,-1.0593 -0.1178,-1.5302 L 83.926,53.3219 c 2.4719,3.2958 7.0625,4.7083 11.0646,3.0604 4.7084,-2.1188 7.0624,-7.5333 5.0614,-12.3594 z"
+               transform="matrix(1,0,0,1.00885,1582,315)"
+               id="path41" />
+          </g>
+        </g>
+      </g>
+      <text
+         fill="#0070c0"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(1035.46,405)"
+         id="text43">Service provider</text>
+      <path
+         d="m 1628,338.5 c 0,-5.799 4.92,-10.5 11,-10.5 6.08,0 11,4.701 11,10.5 0,5.799 -4.92,10.5 -11,10.5 -6.08,0 -11,-4.701 -11,-10.5 z"
+         stroke="#2b4719"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#70ad47"
+         fill-rule="evenodd"
+         id="path43" />
+      <path
+         d="m 1661,362 c 0,-6.075 4.92,-11 11,-11 6.08,0 11,4.925 11,11 0,6.075 -4.92,11 -11,11 -6.08,0 -11,-4.925 -11,-11 z"
+         stroke="#64310f"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#ed7d31"
+         fill-rule="evenodd"
+         id="path44" />
+      <path
+         d="m 1592,363.5 c 0,-5.799 4.7,-10.5 10.5,-10.5 5.8,0 10.5,4.701 10.5,10.5 0,5.799 -4.7,10.5 -10.5,10.5 -5.8,0 -10.5,-4.701 -10.5,-10.5 z"
+         stroke="#2b4719"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#70ad47"
+         fill-rule="evenodd"
+         id="path45" />
+      <path
+         d="m 1656,406 c 0,-6.075 4.7,-11 10.5,-11 5.8,0 10.5,4.925 10.5,11 0,6.075 -4.7,11 -10.5,11 -5.8,0 -10.5,-4.925 -10.5,-11 z"
+         stroke="#64310f"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#ed7d31"
+         fill-rule="evenodd"
+         id="path46" />
+      <path
+         d="m 1602,403 c 0,-6.075 4.92,-11 11,-11 6.08,0 11,4.925 11,11 0,6.075 -4.92,11 -11,11 -6.08,0 -11,-4.925 -11,-11 z"
+         stroke="#172c51"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path47" />
+      <path
+         d="m 1628,376.5 c 0,-5.799 4.7,-10.5 10.5,-10.5 5.8,0 10.5,4.701 10.5,10.5 0,5.799 -4.7,10.5 -10.5,10.5 -5.8,0 -10.5,-4.701 -10.5,-10.5 z"
+         stroke="#172c51"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#4472c4"
+         fill-rule="evenodd"
+         id="path48" />
+      <path
+         d="m 1478,423 v 43 h 7 l -14,14 -14,-14 h 7 v -43 z"
+         stroke="#000000"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path49" />
+      <g
+         clip-path="url(#clip7-0)"
+         id="g57">
+        <g
+           clip-path="url(#clip8-3)"
+           id="g56">
+          <g
+             clip-path="url(#clip9-8)"
+             id="g55">
+            <path
+               d="m 1415.18,467.979 v -38.958 h 14.32 v 12.031 h 14.32 v 26.927 z m 17.76,-37.526 7.16,7.162 h -7.16 z m 0,-4.87 h -21.2 v 45.834 h 35.52 v -33.229 z"
+               id="path50" />
+            <path
+               d="m 1418.61,446.781 h 21.78 v 2.292 h -21.78 z"
+               id="path51" />
+            <path
+               d="m 1418.61,442.198 h 7.45 v 2.292 h -7.45 z"
+               id="path52" />
+            <path
+               d="m 1418.61,451.365 h 21.78 v 2.291 h -21.78 z"
+               id="path53" />
+            <path
+               d="m 1418.61,455.948 h 21.78 v 2.292 h -21.78 z"
+               id="path54" />
+            <path
+               d="m 1418.61,460.531 h 21.78 v 2.292 h -21.78 z"
+               id="path55" />
+          </g>
+        </g>
+      </g>
+      <text
+         fill="#0070c0"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(1035.46,450)"
+         id="text57">Designer</text>
+      <rect
+         x="1485"
+         y="256"
+         width="131"
+         height="50"
+         stroke="#000000"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#262626"
+         id="rect57" />
+      <text
+         fill="#ffffff"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="translate(1523.57,291)"
+         id="text58">Map</text>
+      <path
+         d="m 1594.03,311.964 20.36,20.365 5.09,-5.091 v 20.365 h -20.36 l 5.09,-5.092 -20.37,-20.364 z"
+         stroke="#000000"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path58" />
+      <path
+         d="m 1516.58,319.517 -20.36,20.364 5.09,5.092 h -20.36 v -20.365 l 5.09,5.091 20.36,-20.365 z"
+         stroke="#000000"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path59" />
+      <rect
+         x="1574"
+         y="484"
+         width="142"
+         height="49"
+         stroke="#000000"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#262626"
+         id="rect59" />
+      <text
+         fill="#ffffff"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="translate(1607.4,518)"
+         id="text59">Match</text>
+      <path
+         d="m 1646.75,423 v 42.5 H 1654 L 1639.5,480 1625,465.5 h 7.25 V 423 Z"
+         stroke="#000000"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path60" />
+      <path
+         d="m 1647.75,538 v 28.5 H 1655 L 1640.5,581 1626,566.5 h 7.25 V 538 Z"
+         stroke="#000000"
+         stroke-width="2"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path61" />
+      <text
+         fill="#0070c0"
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(1057.22,598)"
+         id="text61">(Clients)</text>
+    </g>
+  </g>
+</svg>

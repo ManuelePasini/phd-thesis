@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="dfd.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg1"
+   version="1.1"
+   viewBox="0 0 74.661804 103.14324"
+   height="103.14324mm"
+   width="74.661804mm">
+  <metadata
+     id="metadata60">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="2552"
+     inkscape:window-height="1417"
+     inkscape:window-width="2560"
+     inkscape:cy="-163.98914"
+     inkscape:cx="361.22188"
+     inkscape:zoom="0.73139029"
+     inkscape:document-units="mm"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:pagecheckerboard="0"
+     inkscape:pageopacity="0.0"
+     inkscape:showpageshadow="2"
+     borderopacity="0.25"
+     bordercolor="#000000"
+     pagecolor="#ffffff"
+     id="namedview1" />
+  <defs
+     id="defs1">
+    <clipPath
+       id="clip0">
+      <rect
+         id="rect1"
+         height="416"
+         width="278"
+         y="73"
+         x="172" />
+    </clipPath>
+    <clipPath
+       id="clip0-9">
+      <rect
+         id="rect1-2"
+         height="416"
+         width="278"
+         y="73"
+         x="172" />
+    </clipPath>
+  </defs>
+  <g
+     transform="translate(-9.2805037,-192.07748)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-80.986509,113.9813)"
+       id="g168">
+      <rect
+         x="438.5"
+         y="296.5"
+         width="78"
+         height="36"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect62" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(449.193,310)"
+         id="text64">Weather</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(454.026,328)"
+         id="text66">Station</text>
+      <rect
+         x="341.5"
+         y="295.5"
+         width="79"
+         height="37"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect68" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(352.551,310)"
+         id="text70">Moisture</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(353.717,328)"
+         id="text72">Sensors</text>
+      <path
+         d="m 386.5,377.5 c 0,-16.016 20.371,-29 45.5,-29 25.129,0 45.5,12.984 45.5,29 0,16.016 -20.371,29 -45.5,29 -25.129,0 -45.5,-12.984 -45.5,-29 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path74" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(399.86,382)"
+         id="text76">Consume</text>
+      <path
+         d="M 0.112245,-0.313866 39.4176,13.7425 39.1931,14.3703 -0.112245,0.313866 Z M 39.3968,9.84103 l 6.1859,6.46027 -8.8798,1.0725 z"
+         transform="matrix(-1,0,0,1,477.083,332.5)"
+         id="path78" />
+      <path
+         d="m 381.598,332.181 44.267,13.539 -0.194,0.637 -44.268,-13.538 z m 44.065,9.643 6.48,6.164 -8.82,1.486 z"
+         id="path80" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(526.922,440)"
+         id="text82">Raw</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(560.422,440)"
+         id="text84">Images</text>
+      <rect
+         x="511.64801"
+         y="421.00101"
+         width="111.705"
+         height="3.99841"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect86" />
+      <rect
+         x="511.64801"
+         y="445.383"
+         width="111.705"
+         height="4.2335801"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect88" />
+      <path
+         d="m 431.833,406.5 v 8.541 h -0.666 V 406.5 Z m 3.667,7.208 -4,8 -4,-8 z"
+         id="path90" />
+      <path
+         d="m 378.5,492.5 c 0,-16.016 23.729,-29 53,-29 29.271,0 53,12.984 53,29 0,16.016 -23.729,29 -53,29 -29.271,0 -53,-12.984 -53,-29 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path92" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(415.774,486)"
+         id="text94">Data</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(394.194,504)"
+         id="text96">Enrichment</text>
+      <path
+         d="m 431.833,450.5 v 7.022 h -0.666 V 450.5 Z m 3.667,5.689 -4,8 -4,-8 z"
+         id="path98" />
+      <path
+         d="m 469.658,512.206 34.444,18.5 -0.315,0.587 -34.445,-18.499 z m 35.004,14.639 5.156,7.309 -8.941,-0.262 z"
+         id="path100" />
+      <path
+         d="m 405.5,610.5 c 0,-16.016 18.356,-29 41,-29 22.644,0 41,12.984 41,29 0,16.016 -18.356,29 -41,29 -22.644,0 -41,-12.984 -41,-29 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path102" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(417.456,607)"
+         id="text104">Irrigation</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(432.209,625)"
+         id="text106">Opt.</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(551.051,674)"
+         id="text108">DWH</text>
+      <rect
+         x="518.659"
+         y="654.383"
+         width="100.681"
+         height="4.2335801"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect110" />
+      <rect
+         x="518.659"
+         y="681.00098"
+         width="100.681"
+         height="3.99841"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect112" />
+      <rect
+         x="399.5"
+         y="658.5"
+         width="94"
+         height="22"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect114" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(410.789,674)"
+         id="text116">Field valve</text>
+      <path
+         d="m 569.833,639.5 v 8.271 h -0.666 V 639.5 Z m 3.667,6.937 -4,8 -4,-8 z"
+         id="path118" />
+      <path
+         d="m 446.833,639.5 v 12.461 h -0.666 V 639.5 Z m 3.667,11.128 -4,8 -4,-8 z"
+         id="path120" />
+      <path
+         d="m 540.5,610.5 c 0,-16.016 12.76,-29 28.5,-29 15.74,0 28.5,12.984 28.5,29 0,16.016 -12.76,29 -28.5,29 -15.74,0 -28.5,-12.984 -28.5,-29 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path122" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(555.104,615)"
+         id="text124">ETL</text>
+      <path
+         d="m 509.684,564.222 33.651,22.21 -0.367,0.556 -33.652,-22.21 z m 34.558,18.415 4.474,7.746 -8.88,-1.069 z"
+         id="path126" />
+      <path
+         d="M 0.201396,-0.265614 29.0246,21.589 28.6218,22.1202 -0.201396,0.265614 Z M 30.1775,17.8616 l 3.9579,8.0209 -8.7915,-1.6461 z"
+         transform="matrix(-1,0,0,1,509.635,564.5)"
+         id="path128" />
+      <path
+         d="m 518.5,377.5 c 0,-16.016 21.714,-29 48.5,-29 26.786,0 48.5,12.984 48.5,29 0,16.016 -21.714,29 -48.5,29 -26.786,0 -48.5,-12.984 -48.5,-29 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path130" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(534.018,382)"
+         id="text132">Download</text>
+      <rect
+         x="528.5"
+         y="305.5"
+         width="78"
+         height="18"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect134" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(540.601,319)"
+         id="text136">Satellite</text>
+      <path
+         d="m 567.833,323.5 v 18.521 h -0.666 V 323.5 Z m 3.667,17.187 -4,8 -4,-8 z"
+         id="path138" />
+      <path
+         d="m 533.5,492.5 c 0,-16.016 14.999,-29 33.5,-29 18.502,0 33.5,12.984 33.5,29 0,16.016 -14.998,29 -33.5,29 -18.501,0 -33.5,-12.984 -33.5,-29 z"
+         stroke="#000000"
+         stroke-width="0.666667"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path140" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(548.851,489)"
+         id="text142">Index</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(545.184,507)"
+         id="text144">Comp.</text>
+      <path
+         d="M 0.333333,-2.36328e-6 0.333391,8.14141 -0.333276,8.14142 -0.333333,2.36328e-6 Z M 4.00005,6.80805 1.04987e-4,14.8081 -3.99995,6.80811 Z"
+         transform="matrix(-1,0,0,1,567.5,406.5)"
+         id="path146" />
+      <path
+         d="m 567.833,449.5 v 7.422 h -0.666 V 449.5 Z m 3.667,6.089 -4,8 -4,-8 z"
+         id="path148" />
+      <path
+         d="M 0.179093,-0.281135 28.5476,17.7906 28.1894,18.3529 -0.179093,0.281135 Z M 29.3931,13.9818 33.9912,21.6536 25.0948,20.729 Z"
+         transform="matrix(-1,0,0,1,543.491,512.5)"
+         id="path150" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(391.431,441)"
+         id="text152">Sensor</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(441.931,441)"
+         id="text154">Data</text>
+      <rect
+         x="375.64801"
+         y="421.00101"
+         width="111.705"
+         height="3.99841"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect156" />
+      <rect
+         x="375.64801"
+         y="446.00101"
+         width="111.705"
+         height="3.99841"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect158" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(458.745,553)"
+         id="text160">Integrated</text>
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="15px"
+         transform="translate(528.578,553)"
+         id="text162">Data</text>
+      <rect
+         x="449.23801"
+         y="534.383"
+         width="120.523"
+         height="4.2335801"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect164" />
+      <rect
+         x="449.23801"
+         y="560.383"
+         width="120.523"
+         height="4.2335801"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect166" />
+    </g>
+  </g>
+</svg>

@@ -8,7 +8,28 @@
 \usepackage[inline]{enumitem}
 \usepackage{setspace}
 \usepackage{fancyhdr}
+\usepackage[section]{placeins} % floats cannot drift past the next \section
 
+% Less restrictive float placement, so figures stay close to where they are referenced
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\bottomfraction}{0.7}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.75}
+\setcounter{topnumber}{3}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{4}
+
+\newlist{rqlist}{description}{1}
+\setlist[rqlist]{
+  leftmargin=3em,       % Entità dello shift del blocco verso destra
+  labelwidth=3em,       % Spazio riservato alla label (RQ1, RQ2...)
+  labelsep=0pt,
+  align=left,
+  font=\normalfont\bfseries,
+  topsep=1em,
+  itemsep=1.5em,
+  parsep=0.5em
+}
 \fancypagestyle{plain}{
 	\fancyhf{}
 	\fancyfoot[RE,LO]{\leftmark}
@@ -30,7 +51,8 @@
 \pagestyle{fancy}
 
 \newcommand{\acknowledgementsname}{Acknowledgements}
-
+\newcommand{\epiloguename}{Epilogue}
+\newcommand{\introductionname}{Introduction}
 \newcommand{\school}[1]{\def\theschool{#1}}
 \newcommand{\programme}[1]{\def\theprogramme{#1}}
 \newcommand{\contestsector}[1]{\def\thecontestsector{#1}}
@@ -44,8 +66,14 @@
 \newenvironment{acknowledgements}{\chapter*{\acknowledgementsname}}{} 
 \newenvironment{dedication}{\chapter*{}\begin{flushright}\itshape}{\normalfont\end{flushright}}
 \newenvironment{inlinelist}{\begin{enumerate*}[label=\emph{(\roman{*})}]}{\end{enumerate*}}
-
+\newenvironment{epilogue}{\chapter*{\centering\epiloguename}\addcontentsline{toc}{chapter}{\epiloguename}}{} 
+\newenvironment{introduction}{\chapter*{\centering\introductionname}\addcontentsline{toc}{chapter}{\introductionname}}{} 
+\newenvironment{partsummary}{%
+  \section*{Final Remarks}%
+  \addcontentsline{toc}{chapter}{Final Remarks}%
+}{}
 \newcommand{\chapterWithoutNumber}[1]{\chapter*{#1}\addcontentsline{toc}{chapter}{#1}}
+
 
 \let\oldbibliography\bibliography
 \renewcommand{\bibliography}[1]{

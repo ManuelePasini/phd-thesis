@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="135.59895mm"
+   height="76.13385mm"
+   viewBox="0 0 135.59895 76.13385"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="servicegraph.svg"
+   inkscape:export-filename="servicegraph.pdf"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.6311518"
+     inkscape:cx="621.34009"
+     inkscape:cy="270.66763"
+     inkscape:window-width="2880"
+     inkscape:window-height="1526"
+     inkscape:window-x="-11"
+     inkscape:window-y="694"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <clipPath
+       id="clip0">
+      <rect
+         x="216"
+         y="199"
+         width="513"
+         height="289"
+         id="rect1" />
+    </clipPath>
+    <clipPath
+       id="clip0-8">
+      <rect
+         x="220"
+         y="199"
+         width="509"
+         height="289"
+         id="rect1-5" />
+    </clipPath>
+    <clipPath
+       id="clip0-6">
+      <rect
+         x="220"
+         y="199"
+         width="509"
+         height="289"
+         id="rect1-2" />
+    </clipPath>
+    <clipPath
+       id="clip0-0">
+      <rect
+         x="209"
+         y="199"
+         width="520"
+         height="289"
+         id="rect1-4" />
+    </clipPath>
+    <clipPath
+       id="clip0-62">
+      <rect
+         x="209"
+         y="199"
+         width="516"
+         height="289"
+         id="rect1-8" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(59.223918,-115.76381)">
+    <g
+       clip-path="url(#clip0-62)"
+       transform="matrix(0.26458333,0,0,0.26458333,-114.58798,62.780994)"
+       id="g25">
+      <path
+         d="m 209.5,362.5 c 0,-16.016 31.116,-29 69.5,-29 38.384,0 69.5,12.984 69.5,29 0,16.016 -31.116,29 -69.5,29 -38.384,0 -69.5,-12.984 -69.5,-29 z"
+         stroke="#6c8ebf"
+         stroke-width="0.5"
+         stroke-miterlimit="8"
+         fill="#dae8fc"
+         fill-rule="evenodd"
+         id="path1" />
+      <text
+         font-family="'Times New Roman', 'Times New Roman_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="20px"
+         transform="translate(270.336,357)"
+         id="text2">n<tspan
+   font-size="13px"
+   x="10"
+   y="4"
+   id="tspan1">2</tspan><tspan
+   font-family="Arial, Arial_MSFontService, sans-serif"
+   font-size="20px"
+   x="-39.75"
+   y="24"
+   id="tspan2">GeoServer</tspan></text>
+      <path
+         d="m 382.5,409.5 c 0,-16.016 12.984,-29 29,-29 16.016,0 29,12.984 29,29 0,16.016 -12.984,29 -29,29 -16.016,0 -29,-12.984 -29,-29 z"
+         stroke="#6c8ebf"
+         stroke-width="0.5"
+         stroke-miterlimit="8"
+         fill="#dae8fc"
+         fill-rule="evenodd"
+         id="path2" />
+      <text
+         font-family="'Times New Roman', 'Times New Roman_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="20px"
+         transform="translate(402.447,404)"
+         id="text4">n<tspan
+   font-size="13px"
+   x="10"
+   y="4"
+   id="tspan3">3</tspan><tspan
+   font-family="Arial, Arial_MSFontService, sans-serif"
+   font-size="20px"
+   x="-11"
+   y="24"
+   id="tspan4">EC2</tspan></text>
+      <path
+         d="m 348.535,361.155 5.07,3.207 -1.069,1.69 -5.071,-3.207 z m 6.761,4.276 5.071,3.207 -1.07,1.691 -5.07,-3.208 z m 6.761,4.277 5.071,3.207 -1.069,1.69 -5.071,-3.207 z m 6.761,4.276 5.071,3.207 -1.069,1.69 -5.071,-3.207 z m 6.761,4.276 5.071,3.208 -1.069,1.69 -5.071,-3.207 z m 6.761,4.277 5.071,3.207 -1.069,1.69 -5.071,-3.207 z m 0.624,-7.727 7.19,13.852 -15.597,-0.56 c -0.552,-0.02 -0.983,-0.483 -0.963,-1.035 0.02,-0.552 0.483,-0.984 1.035,-0.964 l 13.884,0.499 -0.924,1.46 -6.4,-12.331 c -0.254,-0.49 -0.063,-1.094 0.427,-1.348 0.49,-0.254 1.094,-0.063 1.348,0.427 z"
+         fill="#4472c4"
+         id="path4" />
+      <path
+         d="M 0.629189,-0.777252 5.2927,2.99788 4.03432,4.55239 -0.629189,0.777252 Z M 6.84721,4.25626 11.5107,8.0314 10.2523,9.5859 5.58883,5.81077 Z m 6.21799,5.03351 4.6635,3.77513 -1.2583,1.5545 -4.6636,-3.7751 z m 6.218,5.03353 4.6636,3.7751 -1.2584,1.5545 -4.6635,-3.7751 z m 6.2181,5.0335 4.6635,3.7751 -1.2584,1.5545 -4.6635,-3.7751 z m 6.218,5.0335 1.0858,0.879 -1.2584,1.5545 -1.0858,-0.879 z m -3.531,-11.6892 5.5301,14.5941 -15.4258,-2.3698 c -0.5458,-0.0839 -0.9204,-0.5944 -0.8365,-1.1403 0.0839,-0.5458 0.5944,-0.9204 1.1402,-0.8365 l 13.7314,2.1095 -1.087,1.3427 -4.9227,-12.991 c -0.1957,-0.5164 0.0643,-1.0938 0.5808,-1.2895 0.5164,-0.1957 1.0938,0.0644 1.2895,0.5808 z"
+         fill="#4472c4"
+         transform="matrix(1,0,0,-1,348,362.292)"
+         id="path5" />
+      <path
+         d="m 382.5,335.5 c 0,-16.016 12.984,-29 29,-29 16.016,0 29,12.984 29,29 0,16.016 -12.984,29 -29,29 -16.016,0 -29,-12.984 -29,-29 z"
+         stroke="#6c8ebf"
+         stroke-width="0.5"
+         stroke-miterlimit="8"
+         fill="#dae8fc"
+         fill-rule="evenodd"
+         id="path6" />
+      <text
+         font-family="'Times New Roman', 'Times New Roman_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="20px"
+         transform="translate(402.447,330)"
+         id="text7">n<tspan
+   font-size="13px"
+   x="10"
+   y="4"
+   id="tspan6">1</tspan><tspan
+   font-family="Arial, Arial_MSFontService, sans-serif"
+   font-size="20px"
+   x="-3.75"
+   y="24"
+   id="tspan7">S3</tspan></text>
+      <path
+         d="m 279.5,265 c 0,-15.74 19.252,-28.5 43,-28.5 23.748,0 43,12.76 43,28.5 0,15.74 -19.252,28.5 -43,28.5 -23.748,0 -43,-12.76 -43,-28.5 z"
+         stroke="#6c8ebf"
+         stroke-width="0.5"
+         stroke-miterlimit="8"
+         fill="#dae8fc"
+         fill-rule="evenodd"
+         id="path7" />
+      <text
+         font-family="'Times New Roman', 'Times New Roman_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="20px"
+         transform="translate(313.531,260)"
+         id="text11">n<tspan
+   font-size="13px"
+   x="10"
+   y="4"
+   id="tspan8">4</tspan><tspan
+   font-family="Arial, Arial_MSFontService, sans-serif"
+   font-size="20px"
+   x="-13.87"
+   y="24"
+   id="tspan9">EMR</tspan><tspan
+   font-size="18px"
+   x="-82.486702"
+   y="161"
+   id="tspan10">IsCompatible</tspan><tspan
+   font-size="18px"
+   x="-65.986603"
+   y="201"
+   id="tspan11">Requires</tspan></text>
+      <path
+         d="m 256.003,474 6,0.02 -0.006,2 -6,-0.02 z m 8,0.027 6,0.02 -0.006,2 -6,-0.02 z m 8,0.026 6,0.021 -0.006,2 -6,-0.021 z m 8,0.027 6,0.02 -0.007,2 -5.999,-0.02 z m 8,0.027 6,0.02 -0.007,2 -6,-0.02 z m 8,0.027 4.468,0.015 -0.006,2 -4.469,-0.015 z m -7.005,-6.888 13.455,7.909 -13.507,7.819 c -0.478,0.277 -1.09,0.113 -1.367,-0.365 -0.277,-0.477 -0.113,-1.089 0.365,-1.366 l 12.023,-6.96 -0.006,1.728 -11.976,-7.04 c -0.477,-0.28 -0.636,-0.893 -0.356,-1.369 0.28,-0.476 0.893,-0.635 1.369,-0.356 z"
+         fill="#4472c4"
+         id="path11" />
+      <path
+         d="m 256.002,434 2,0.005 -0.004,2 -2,-0.005 z m 4,0.01 2,0.005 -0.004,2 -2,-0.005 z m 4,0.01 2,0.004 -0.004,2 -2,-0.004 z m 4,0.009 2,0.005 -0.004,2 -2,-0.005 z m 4,0.01 2,0.005 -0.005,2 -1.999,-0.005 z m 4,0.01 2,0.005 -0.005,2 -2,-0.005 z m 4,0.01 2,0.004 -0.005,2 -2,-0.004 z m 4,0.009 2,0.005 -0.005,2 -2,-0.005 z m 4,0.01 2,0.005 -0.005,2 -2,-0.005 z m 4,0.01 2,0.005 -0.005,2 -2,-0.005 z m 4,0.01 2,0.004 -0.005,2 -2,-0.004 z m 4,0.009 0.468,10e-4 -0.005,2 -0.468,-10e-4 z m -11.011,-6.89 13.462,7.896 -13.5,7.831 c -0.478,0.277 -1.09,0.115 -1.367,-0.363 -0.277,-0.478 -0.115,-1.09 0.363,-1.367 l 12.017,-6.971 -0.004,1.728 -11.983,-7.029 c -0.476,-0.28 -0.636,-0.892 -0.357,-1.369 0.28,-0.476 0.893,-0.636 1.369,-0.356 z"
+         fill="#4472c4"
+         id="path12" />
+      <rect
+         x="222.5"
+         y="402.5"
+         width="113"
+         height="85"
+         stroke="#172c51"
+         stroke-miterlimit="8"
+         fill="none"
+         id="rect12" />
+      <path
+         d="m 352.614,284.21 1.579,1.227 -1.227,1.58 -1.58,-1.227 z m 3.158,2.454 1.58,1.227 -1.227,1.58 -1.58,-1.227 z m 3.159,2.455 1.579,1.227 -1.227,1.579 -1.579,-1.227 z m 3.159,2.454 1.579,1.227 -1.227,1.579 -1.579,-1.227 z m 3.158,2.454 1.58,1.227 -1.227,1.579 -1.58,-1.227 z m 3.159,2.454 1.579,1.227 -1.227,1.579 -1.579,-1.227 z m 3.159,2.454 1.579,1.227 -1.227,1.579 -1.579,-1.227 z m 3.158,2.454 1.58,1.227 -1.227,1.579 -1.58,-1.227 z m 3.159,2.454 1.579,1.227 -1.227,1.58 -1.579,-1.228 z m 3.159,2.454 1.579,1.227 -1.227,1.58 -1.579,-1.227 z m 3.159,2.454 1.579,1.227 -1.227,1.58 -1.58,-1.227 z m 3.158,2.454 1.58,1.227 -1.227,1.58 -1.58,-1.227 z m -3.177,-11.16 5.821,14.481 -15.47,-2.061 c -0.547,-0.073 -0.932,-0.576 -0.859,-1.123 0.073,-0.548 0.576,-0.933 1.123,-0.86 l 13.771,1.835 -1.06,1.364 -5.181,-12.89 c -0.206,-0.512 0.042,-1.095 0.554,-1.301 0.513,-0.206 1.095,0.043 1.301,0.555 z"
+         fill="#4472c4"
+         id="path13" />
+      <path
+         d="m 483.5,335.5 c 0,-16.016 31.116,-29 69.5,-29 38.384,0 69.5,12.984 69.5,29 0,16.016 -31.116,29 -69.5,29 -38.384,0 -69.5,-12.984 -69.5,-29 z"
+         stroke="#6c8ebf"
+         stroke-width="0.5"
+         stroke-miterlimit="8"
+         fill="#dae8fc"
+         fill-rule="evenodd"
+         id="path14" />
+      <text
+         font-family="'Times New Roman', 'Times New Roman_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="20px"
+         transform="translate(543.894,330)"
+         id="text15">n<tspan
+   font-size="13px"
+   x="10"
+   y="4"
+   id="tspan14">5</tspan><tspan
+   font-family="Arial, Arial_MSFontService, sans-serif"
+   font-size="20px"
+   x="-40.130001"
+   y="24"
+   id="tspan15">Lakehouse</tspan></text>
+      <path
+         d="M 3.65843e-6,-1 6,-0.999978 V 1.00002 L -3.65843e-6,1 Z M 8,-0.999971 l 6,2.2e-5 V 1.00005 l -6,-2e-5 z m 8,3e-5 6,2.1e-5 v 2 l -6,-2e-5 z m 8,2.9e-5 6,2.2e-5 v 2 l -6,-2e-5 z m 8,2.9e-5 6,2.2e-5 V 1.00014 l -6,-2e-5 z m 8,2.9e-5 1.0658,4e-6 v 2 H 40 Z M 29.5697,-7.86367 43.0505,1.57358e-4 29.5697,7.86389 C 29.0926,8.14217 28.4803,7.98103 28.202,7.50397 27.9237,7.02692 28.0849,6.4146 28.5619,6.13633 L 40.562,-0.863631 v 1.727558 l -12,-7.000047 c -0.4771,-0.27828 -0.6382,-0.8906 -0.3599,-1.36765 0.2783,-0.47705 0.8906,-0.63818 1.3676,-0.3599 z"
+         fill="#4472c4"
+         transform="matrix(-1,0,0,1,483.046,335)"
+         id="path15" />
+      <path
+         d="m 483.5,200.5 h 39.667 v 0 h 59.5 138.833 v 49 0 21 14 H 582.667 L 552.541,310.222 523.167,284.5 H 483.5 v -14 -21 0 z"
+         stroke="#000000"
+         stroke-width="0.5"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path16" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="20px"
+         transform="translate(490.944,225)"
+         id="text20">{(Data Model, <tspan
+   font-family="'Times New Roman', 'Times New Roman_MSFontService', sans-serif"
+   font-size="20px"
+   x="126.25"
+   y="0"
+   id="tspan16">Structured</tspan>),<tspan
+   font-size="20px"
+   x="29.620001"
+   y="24"
+   id="tspan17">(Data Model,</tspan><tspan
+   font-family="'Times New Roman', 'Times New Roman_MSFontService', sans-serif"
+   font-size="20px"
+   x="149.12"
+   y="24"
+   id="tspan18">File</tspan>),<tspan
+   font-size="20px"
+   x="48.869999"
+   y="48"
+   id="tspan19">(Volume,</tspan><tspan
+   font-family="'Times New Roman', 'Times New Roman_MSFontService', sans-serif"
+   font-size="20px"
+   x="134.12"
+   y="48"
+   id="tspan20">All</tspan>)}</text>
+      <path
+         d="m 483.5,390.5 h 30.333 l -78.88,-46.184 124.38,46.184 H 665.5 v 12.667 0 19 44.333 h -106.167 -45.5 v 0 H 483.5 v -44.333 -19 0 z"
+         stroke="#000000"
+         stroke-width="0.5"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path20" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="20px"
+         transform="translate(489.155,411)"
+         id="text25">{(Data Model, <tspan
+   font-family="'Times New Roman', 'Times New Roman_MSFontService', sans-serif"
+   font-size="20px"
+   x="126.25"
+   y="0"
+   id="tspan21">File</tspan>),<tspan
+   font-size="20px"
+   x="23.25"
+   y="24"
+   id="tspan22">(Volume,</tspan><tspan
+   font-family="'Times New Roman', 'Times New Roman_MSFontService', sans-serif"
+   font-size="20px"
+   x="108.5"
+   y="24"
+   id="tspan23">All</tspan>),<tspan
+   font-size="20px"
+   x="8.6300001"
+   y="48"
+   id="tspan24">(Preferred,</tspan><tspan
+   font-family="'Times New Roman', 'Times New Roman_MSFontService', sans-serif"
+   font-size="20px"
+   x="109.38"
+   y="48"
+   id="tspan25">True</tspan>)}</text>
+    </g>
+  </g>
+</svg>

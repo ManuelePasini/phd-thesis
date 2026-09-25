@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   sodipodi:docname="technogym.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 181.37187 277.01874"
+   height="277.01874mm"
+   width="181.37187mm"
+   inkscape:export-filename="technogym.pdf"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <clipPath
+       id="clip0">
+      <rect
+         x="82"
+         y="-200"
+         width="686"
+         height="1217"
+         id="rect1" />
+    </clipPath>
+    <clipPath
+       id="clip0-1">
+      <rect
+         x="82"
+         y="-200"
+         width="686"
+         height="1217"
+         id="rect1-0" />
+    </clipPath>
+    <clipPath
+       id="clip0-3">
+      <rect
+         x="82"
+         y="-200"
+         width="686"
+         height="1059"
+         id="rect1-8" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="694"
+     inkscape:window-x="-11"
+     inkscape:window-height="1526"
+     inkscape:window-width="2880"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="635.89103"
+     inkscape:cx="773.27177"
+     inkscape:zoom="0.98994949"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(144.47193,82.827181)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       clip-path="url(#clip0-3)"
+       transform="matrix(0.26458333,0,0,0.26458333,-166.23391,-29.910515)"
+       id="g45">
+      <rect
+         x="431.5"
+         y="-199.5"
+         width="118"
+         height="55"
+         stroke="#000000"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect2" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="22px"
+         transform="translate(437.895,-165)"
+         id="text2">Salesforce</text>
+      <path
+         d="m 491,-144.5 v 9.558 h -1 v -9.558 z m 5.5,7.558 -6,12 -6,-12 z"
+         id="path2" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="22px"
+         transform="translate(397.162,-16)"
+         id="text3">Temporary storage</text>
+      <rect
+         x="406.72101"
+         y="-45.557598"
+         width="167.55701"
+         height="6.11517"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect3" />
+      <rect
+         x="406.72101"
+         y="-8.5575895"
+         width="167.55701"
+         height="6.11517"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect4" />
+      <path
+         d="m 324.5,205.5 c 0,-16.016 27.534,-29 61.5,-29 33.966,0 61.5,12.984 61.5,29 0,16.016 -27.534,29 -61.5,29 -33.966,0 -61.5,-12.984 -61.5,-29 z"
+         stroke="#000000"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path4" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="22px"
+         transform="translate(365.124,213)"
+         id="text4">ETL</text>
+      <path
+         d="M 0.499863,-0.0117199 0.864993,15.5614 -0.134732,15.5849 -0.499863,0.0117199 Z M 6.3166,13.4331 0.599528,25.5704 -5.6801,13.7143 Z"
+         transform="matrix(-1,0,0,1,386.1,151.5)"
+         id="path5" />
+      <path
+         d="m 417.5,-96 c 0,-15.74 32.459,-28.5 72.5,-28.5 40.041,0 72.5,12.76 72.5,28.5 0,15.7401 -32.459,28.5 -72.5,28.5 -40.041,0 -72.5,-12.7599 -72.5,-28.5 z"
+         stroke="#000000"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path6" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="22px"
+         transform="translate(466.64,-102)"
+         id="text6">Data<tspan
+   font-size="22px"
+   x="-7.3699999"
+   y="27"
+   id="tspan6">loader</tspan></text>
+      <path
+         d="m 417.5,52.5 c 0,-16.0163 32.459,-29 72.5,-29 40.041,0 72.5,12.9837 72.5,29 0,16.0163 -32.459,29 -72.5,29 -40.041,0 -72.5,-12.9837 -72.5,-29 z"
+         stroke="#000000"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path7" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="22px"
+         transform="translate(468.265,46)"
+         id="text7">Bulk <tspan
+   font-size="22px"
+   x="-9.1199999"
+   y="27"
+   id="tspan7">loader</tspan></text>
+      <path
+         d="M 0.5,-3.65038e-6 0.500084,11.5704 h -1 L -0.5,3.65038e-6 Z M 6.00007,9.57035 1.5748e-4,21.5704 -5.99993,9.57044 Z"
+         transform="matrix(-1,0,0,1,490.5,-67.5)"
+         id="path8" />
+      <path
+         d="M 0.499994,-0.00243574 0.575846,15.5681 -0.424142,15.5729 -0.499994,0.00243574 Z M 6.06604,13.5413 0.124567,25.5704 -5.93382,13.5998 Z"
+         transform="matrix(-1,0,0,1,490.625,-2.5)"
+         id="path9" />
+      <path
+         d="M 0.119599,-0.485485 94.2072,22.6929 93.968,23.6639 -0.119599,0.485485 Z M 93.5809,16.8742 103.797,25.5704 90.7105,28.5258 Z"
+         transform="matrix(-1,0,0,1,490.297,81.5)"
+         id="path10" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="22px"
+         transform="translate(323.805,135)"
+         id="text10">Staging area</text>
+      <rect
+         x="296.10699"
+         y="106.442"
+         width="180.785"
+         height="6.11517"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect10" />
+      <rect
+         x="296.10699"
+         y="145.442"
+         width="180.785"
+         height="6.11517"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect11" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="22px"
+         transform="translate(313.956,288)"
+         id="text11">Historical Data</text>
+      <rect
+         x="295.97501"
+         y="259.82501"
+         width="180.05"
+         height="6.3504"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect12" />
+      <rect
+         x="295.97501"
+         y="298.44199"
+         width="180.05"
+         height="6.11517"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect13" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="22px"
+         transform="translate(310.488,444)"
+         id="text13">Integrated data</text>
+      <rect
+         x="310.673"
+         y="413.44199"
+         width="150.65401"
+         height="6.11517"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect14" />
+      <rect
+         x="310.673"
+         y="452.82501"
+         width="150.65401"
+         height="6.3504"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect15" />
+      <path
+         d="m 316.5,359 c 0,-15.74 30.892,-28.5 69,-28.5 38.108,0 69,12.76 69,28.5 0,15.74 -30.892,28.5 -69,28.5 -38.108,0 -69,-12.76 -69,-28.5 z"
+         stroke="#000000"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path15" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="22px"
+         transform="translate(361.368,353)"
+         id="text15">View<tspan
+   font-size="22px"
+   x="-15.12"
+   y="27"
+   id="tspan15">Updater</tspan></text>
+      <path
+         d="m 386,234.5 v 15.57 h -1 V 234.5 Z m 5.5,13.57 -6,12 -6,-12 z"
+         id="path16" />
+      <path
+         d="m 386,298.5 v 21.728 h -1 V 298.5 Z m 5.5,19.728 -6,12 -6,-12 z"
+         id="path17" />
+      <path
+         d="m 386,387.5 v 15.661 h -1 V 387.5 Z m 5.5,13.661 -6,12 -6,-12 z"
+         id="path18" />
+      <path
+         d="m 84.5,473 c 0,-15.74 31.116,-28.5 69.5,-28.5 38.384,0 69.5,12.76 69.5,28.5 0,15.74 -31.116,28.5 -69.5,28.5 -38.384,0 -69.5,-12.76 -69.5,-28.5 z"
+         stroke="#6c8ebf"
+         stroke-width="4.5"
+         stroke-miterlimit="8"
+         fill="#dae8fc"
+         fill-rule="evenodd"
+         id="path19" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="20px"
+         transform="translate(112.593,480)"
+         id="text19">Dataform</text>
+      <path
+         d="M 0.897866,-0.44027 121.221,244.94 119.425,245.821 -0.897866,0.44027 Z M 122.322,231.596 l -1.125,15.567 -12.996,-8.642 c -0.46,-0.306 -0.585,-0.927 -0.279,-1.387 0.306,-0.46 0.926,-0.584 1.386,-0.279 l 11.568,7.693 -1.551,0.761 1.002,-13.857 c 0.04,-0.551 0.519,-0.965 1.07,-0.925 0.551,0.04 0.965,0.519 0.925,1.069 z"
+         fill="#4472c4"
+         transform="matrix(-1,0,0,1,324.194,205)"
+         id="path20" />
+      <path
+         d="M 0.775212,-0.631702 92.5877,112.039 91.0373,113.302 -0.775212,0.631702 Z M 90.6467,98.7913 93.0664,114.209 78.4545,108.726 c -0.5171,-0.194 -0.779,-0.77 -0.585,-1.287 0.1941,-0.517 0.7705,-0.779 1.2876,-0.585 l 13.0069,4.88 -1.3392,1.092 -2.1539,-13.7247 c -0.0856,-0.5456 0.2872,-1.0573 0.8328,-1.1429 0.5456,-0.0856 1.0574,0.2873 1.143,0.8329 z"
+         fill="#4472c4"
+         transform="matrix(-1,0,0,1,316.063,358)"
+         id="path21" />
+      <path
+         d="m 197.5,-13.5 c 0,-16.0163 31.116,-29 69.5,-29 38.384,0 69.5,12.9837 69.5,29 0,16.01626 -31.116,29 -69.5,29 -38.384,0 -69.5,-12.98374 -69.5,-29 z"
+         stroke="#6c8ebf"
+         stroke-width="4.5"
+         stroke-miterlimit="8"
+         fill="#dae8fc"
+         fill-rule="evenodd"
+         id="path22" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="20px"
+         transform="translate(251.122,-19)"
+         id="text22">GC <tspan
+   font-size="20px"
+   x="-28.120001"
+   y="24"
+   id="tspan22">Functions</tspan></text>
+      <path
+         d="M 0.519473,-0.854487 100.909,60.1759 99.8702,61.8849 -0.519473,0.854487 Z M 94.6524,48.3395 102.086,62.0619 86.4823,61.7785 c -0.5522,-0.01 -0.9917,-0.4658 -0.9817,-1.018 0.0101,-0.5522 0.4658,-0.9917 1.018,-0.9816 l 13.8904,0.2522 -0.8976,1.4762 -6.6175,-12.2151 c -0.2631,-0.4856 -0.0827,-1.0925 0.4029,-1.3556 0.4856,-0.2631 1.0925,-0.0827 1.3556,0.4029 z"
+         fill="#4472c4"
+         transform="matrix(-1,0,0,1,417.083,-96)"
+         id="path23" />
+      <path
+         d="M 437.986,31.9439 316.742,7.37341 317.139,5.41325 438.384,29.9837 Z M 326.646,16.3837 314.995,5.99908 329.77,0.969465 c 0.522,-0.177986 1.09,0.101555 1.268,0.624375 0.178,0.52282 -0.101,1.09093 -0.624,1.26892 l -13.151,4.47715 0.343,-1.69314 10.371,9.24393 c 0.412,0.3675 0.448,0.9996 0.081,1.4119 -0.368,0.4123 -1,0.4486 -1.412,0.0811 z"
+         fill="#4472c4"
+         id="path24" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="22px"
+         transform="translate(580.021,135)"
+         id="text24">Backup</text>
+      <rect
+         x="526.97498"
+         y="106.442"
+         width="180.05"
+         height="6.11517"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect24" />
+      <rect
+         x="526.97498"
+         y="145.442"
+         width="180.05"
+         height="6.11517"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect25" />
+      <path
+         d="m 490.599,81.0099 116.991,23.5931 -0.198,0.981 -116.991,-23.5939 z m 116.118,17.8066 10.577,8.2535 -12.95,3.51 z"
+         id="path25" />
+      <path
+         d="m 626.5,46 c 0,-15.7401 31.116,-28.5 69.5,-28.5 38.384,0 69.5,12.7599 69.5,28.5 0,15.7401 -31.116,28.5 -69.5,28.5 -38.384,0 -69.5,-12.7599 -69.5,-28.5 z"
+         stroke="#6c8ebf"
+         stroke-width="4.5"
+         stroke-miterlimit="8"
+         fill="#dae8fc"
+         fill-rule="evenodd"
+         id="path26" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="20px"
+         transform="translate(680.43,41)"
+         id="text26">GC<tspan
+   font-size="20px"
+   x="-19.75"
+   y="24"
+   id="tspan26">Storage</tspan></text>
+      <path
+         d="M 0.804514,-0.593934 29.2829,37.9815 27.6739,39.1694 -0.804514,0.593934 Z M 27.9769,24.656 29.6571,40.1721 15.3239,33.9972 c -0.5072,-0.2186 -0.7413,-0.8069 -0.5228,-1.3141 0.2186,-0.5072 0.8069,-0.7412 1.3141,-0.5227 L 28.874,37.657 27.4842,38.6831 25.9886,24.8714 c -0.0595,-0.5491 0.3374,-1.0424 0.8865,-1.1019 0.5491,-0.0594 1.0424,0.3375 1.1018,0.8865 z"
+         fill="#4472c4"
+         transform="matrix(1,0,0,-1,617,106.168)"
+         id="path27" />
+      <path
+         d="m 587.639,-24.7694 57.751,47.9443 -1.278,1.5388 -57.751,-47.9443 z m 53.29,35.32 5.349,14.6613 -15.395,-2.5604 c -0.545,-0.0906 -0.913,-0.6057 -0.822,-1.1505 0.09,-0.5448 0.605,-0.913 1.15,-0.8224 l 13.704,2.2792 -1.103,1.3292 -4.762,-13.0509 c -0.189,-0.5189 0.078,-1.0929 0.597,-1.28222 0.519,-0.18929 1.093,0.07782 1.282,0.59672 z"
+         fill="#4472c4"
+         id="path28" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="22px"
+         transform="translate(320.169,599)"
+         id="text28">Feature store</text>
+      <rect
+         x="310.673"
+         y="568.44202"
+         width="150.65401"
+         height="6.1152301"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect28" />
+      <rect
+         x="310.673"
+         y="607.82501"
+         width="150.65401"
+         height="6.3503399"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect29" />
+      <path
+         d="m 300.5,513.5 c 0,-16.016 38.28,-29 85.5,-29 47.22,0 85.5,12.984 85.5,29 0,16.016 -38.28,29 -85.5,29 -47.22,0 -85.5,-12.984 -85.5,-29 z"
+         stroke="#000000"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path29" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="22px"
+         transform="translate(347.499,508)"
+         id="text29">Feature<tspan
+   font-size="22px"
+   x="-21"
+   y="27"
+   id="tspan29">Engineering</tspan></text>
+      <path
+         d="m 386,459.5 v 15.661 h -1 V 459.5 Z m 5.5,13.661 -6,12 -6,-12 z"
+         id="path30" />
+      <path
+         d="M 0.5,-3.06848e-6 0.500096,15.6609 h -1 L -0.5,3.06848e-6 Z M 6.00008,13.6609 1.5748e-4,25.6609 -5.99992,13.661 Z"
+         transform="matrix(-1,0,0,1,385.5,542.5)"
+         id="path31" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="22px"
+         transform="translate(364.949,753)"
+         id="text31">CLV</text>
+      <rect
+         x="310.673"
+         y="722.82501"
+         width="150.65401"
+         height="6.3503399"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect31" />
+      <rect
+         x="310.673"
+         y="762.44202"
+         width="150.65401"
+         height="6.1152301"
+         stroke="#000000"
+         stroke-width="0"
+         stroke-miterlimit="8"
+         id="rect32" />
+      <path
+         d="m 300.5,668.5 c 0,-16.016 38.28,-29 85.5,-29 47.22,0 85.5,12.984 85.5,29 0,16.016 -38.28,29 -85.5,29 -47.22,0 -85.5,-12.984 -85.5,-29 z"
+         stroke="#000000"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         fill-rule="evenodd"
+         id="path32" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="22px"
+         transform="translate(355.374,663)"
+         id="text32">Model <tspan
+   font-size="22px"
+   x="-15.25"
+   y="27"
+   id="tspan32">inference</tspan></text>
+      <path
+         d="m 386,613.5 v 15.661 h -1 V 613.5 Z m 5.5,13.661 -6,12 -6,-12 z"
+         id="path33" />
+      <path
+         d="M 0.5,-3.06848e-6 0.500096,15.6609 h -1 L -0.5,3.06848e-6 Z M 6.00008,13.6609 1.5748e-4,25.6609 -5.99992,13.661 Z"
+         transform="matrix(-1,0,0,1,385.5,697.5)"
+         id="path34" />
+      <path
+         d="m 299.024,514.432 -74.743,-39.621 0.936,-1.767 74.744,39.621 z m -67.8,-28.172 -8.228,-13.262 15.594,-0.634 c 0.552,-0.023 1.017,0.406 1.04,0.958 0.022,0.552 -0.407,1.018 -0.959,1.04 l -13.881,0.565 0.809,-1.527 7.324,11.805 c 0.291,0.47 0.147,1.086 -0.323,1.377 -0.469,0.291 -1.085,0.147 -1.376,-0.322 z"
+         fill="#4472c4"
+         id="path35" />
+      <path
+         d="m 299.002,668.423 -95.917,-173.206 1.749,-0.969 95.918,173.206 z m -96.353,-159.824 0.349,-15.603 13.41,7.983 c 0.475,0.283 0.63,0.897 0.348,1.371 -0.283,0.475 -0.897,0.631 -1.371,0.348 l -11.937,-7.107 1.511,-0.837 -0.31,13.889 c -0.013,0.553 -0.47,0.99 -1.022,0.978 -0.552,-0.012 -0.99,-0.47 -0.978,-1.022 z"
+         fill="#4472c4"
+         id="path36" />
+      <path
+         d="m 547.5,489.5 c 0,-16.016 31.116,-29 69.5,-29 38.384,0 69.5,12.984 69.5,29 0,16.016 -31.116,29 -69.5,29 -38.384,0 -69.5,-12.984 -69.5,-29 z"
+         stroke="#6c8ebf"
+         stroke-width="4.5"
+         stroke-miterlimit="8"
+         fill="#dae8fc"
+         fill-rule="evenodd"
+         id="path37" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="20px"
+         transform="translate(575.064,496)"
+         id="text37">BigQuery</text>
+      <path
+         d="m 473.964,126.734 93.596,339.42 -1.928,0.531 -93.596,-339.419 z m 97.157,326.514 -3.997,15.086 -11.164,-10.905 c -0.395,-0.386 -0.403,-1.019 -0.017,-1.414 0.386,-0.395 1.019,-0.403 1.414,-0.017 l 9.938,9.708 -1.665,0.459 3.558,-13.429 c 0.142,-0.534 0.689,-0.852 1.223,-0.711 0.534,0.142 0.852,0.689 0.71,1.223 z"
+         fill="#4472c4"
+         id="path38" />
+      <path
+         d="m 473.893,279.55 93.832,186.244 -1.786,0.9 -93.832,-186.244 z m 94.789,172.889 -0.957,15.577 -13.089,-8.5 c -0.463,-0.301 -0.594,-0.921 -0.294,-1.384 0.301,-0.463 0.921,-0.595 1.384,-0.294 l 11.65,7.567 -1.543,0.778 0.853,-13.867 c 0.034,-0.551 0.508,-0.97 1.059,-0.936 0.551,0.034 0.971,0.508 0.937,1.059 z"
+         fill="#4472c4"
+         id="path39" />
+      <path
+         d="m 460.519,435.145 85.076,51.629 -1.037,1.71 -85.077,-51.629 z m 78.809,39.797 7.445,13.716 -15.604,-0.271 c -0.552,-0.009 -0.992,-0.465 -0.983,-1.017 0.01,-0.552 0.465,-0.992 1.017,-0.982 l 13.891,0.241 -0.896,1.477 -6.628,-12.21 c -0.263,-0.486 -0.083,-1.093 0.402,-1.356 0.486,-0.263 1.093,-0.084 1.356,0.402 z"
+         fill="#4472c4"
+         id="path40" />
+      <path
+         d="M 0.748672,-0.662941 89.8434,99.9535 88.3461,101.279 -0.748672,0.662941 Z M 87.3605,86.796 90.4102,102.102 75.5858,97.2225 c -0.5246,-0.1726 -0.8099,-0.7379 -0.6372,-1.2625 0.1726,-0.5246 0.7379,-0.8099 1.2625,-0.6372 l 13.196,4.3434 -1.2934,1.1448 -2.7146,-13.6242 c -0.1079,-0.5416 0.2437,-1.0682 0.7853,-1.1761 0.5416,-0.1079 1.0682,0.2437 1.1761,0.7853 z"
+         fill="#4472c4"
+         transform="matrix(1,0,0,-1,457,591.098)"
+         id="path41" />
+      <path
+         d="M 0.919424,-0.393267 101.293,234.271 99.454,235.058 -0.919424,0.393267 Z M 103.084,221.005 101.155,236.492 88.6236,227.19 c -0.4435,-0.329 -0.5362,-0.955 -0.207,-1.399 0.3292,-0.443 0.9555,-0.536 1.399,-0.207 l 11.1554,8.281 -1.5886,0.679 1.7166,-13.786 c 0.068,-0.548 0.568,-0.937 1.116,-0.869 0.548,0.069 0.937,0.568 0.869,1.116 z"
+         fill="#4472c4"
+         transform="matrix(1,0,0,-1,466,745.488)"
+         id="path42" />
+      <path
+         d="m 386,768.482 0.447,12.421 -1,0.036 L 385,768.518 Z m 5.871,10.224 -5.564,12.208 -6.428,-11.776 z"
+         id="path43" />
+      <rect
+         x="327.5"
+         y="791.5"
+         width="118"
+         height="55"
+         stroke="#000000"
+         stroke-miterlimit="8"
+         fill="#ffffff"
+         id="rect43" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="22px"
+         transform="translate(339.68,813)"
+         id="text43">Saleforce<tspan
+   font-size="22px"
+   x="11.63"
+   y="27"
+   id="tspan43">via API</tspan></text>
+      <path
+         d="m 600.5,367.5 c 0,-16.016 31.116,-29 69.5,-29 38.384,0 69.5,12.984 69.5,29 0,16.016 -31.116,29 -69.5,29 -38.384,0 -69.5,-12.984 -69.5,-29 z"
+         stroke="#6c8ebf"
+         stroke-width="4.5"
+         stroke-miterlimit="8"
+         fill="#dae8fc"
+         fill-rule="evenodd"
+         id="path44" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="20px"
+         transform="translate(628.637,374)"
+         id="text44">Dataform</text>
+      <path
+         d="M 0.76968,-0.63843 10.9846,11.6765 9.4452,12.9533 -0.76968,0.63843 Z m 14.04542,16.93293 1.2769,1.5394 -1.5394,1.2769 -1.2768,-1.5394 z m 5.1075,6.1575 10.2148,12.3149 -1.5393,1.2768 -10.2149,-12.3149 z m 14.0454,16.9329 1.2769,1.5394 -1.5394,1.2769 -1.2768,-1.5394 z m 5.1075,6.1575 10.2148,12.3149 -1.5393,1.2768 -10.2149,-12.3149 z m 11.4463,3.0484 2.5539,15.3964 -14.6591,-5.3554 c -0.5188,-0.1895 -0.7857,-0.7637 -0.5961,-1.2824 0.1895,-0.5188 0.7636,-0.7857 1.2824,-0.5962 l 13.0489,4.7672 -1.3297,1.1029 -2.2734,-13.7052 c -0.0903,-0.5448 0.2781,-1.0598 0.8229,-1.1501 0.5449,-0.0904 1.0598,0.278 1.1502,0.8228 z"
+         fill="#4472c4"
+         transform="matrix(1,0,0,-1,617,459.984)"
+         id="path45" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="20px"
+         transform="translate(653.097,441)"
+         id="text45">isAkin</text>
+    </g>
+  </g>
+</svg>

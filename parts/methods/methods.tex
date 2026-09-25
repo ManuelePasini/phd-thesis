@@ -1,0 +1,15 @@
+\chapter{Methods}
+\label{chap:methods}
+{\color{red}
+\Cref{chap:dataplat} introduced a reference architecture for domain-level data platforms, organized around a small set of composable modules -- ingestion, storage, data processes, management, and exploitation -- and distinguished, within the data processes module, between platform processes, maintained by the platform itself, and user processes, the application-specific pipelines through which individual Digital Twins consume and produce data. That architecture, however, is deliberately abstract: it specifies which functionalities a data platform must provide, not which concrete technology should implement each of them. In practice, cloud providers such as Amazon, Google, and Microsoft expose ecosystems of dozens of overlapping, interoperable services, and selecting the right subset for a given application is, in current practice, left to the expertise of individual designers or consultants -- an unstructured, largely non-reproducible process, at odds with the standardization this thesis has argued for throughout.
+
+This chapter addresses this gap, presenting a methodology that systematizes the selection of the concrete services instantiating the modules of a data platform, driven directly by the data-intensive processes the platform is meant to support. In terms of the platform/user process distinction introduced in \Cref{sec:dataplat-refarch}, the methodology takes as input a description of an application's user processes -- for a Digital Twin, its own analytical or operational data pipelines -- and derives, systematically rather than by expert intuition alone, the subset of services from a given ecosystem that implements them at minimal cost, while respecting dependency, compatibility, and mandatory constraints the designer may impose. Fittingly, the resulting characterization of a data platform is the same one adopted throughout this thesis (\Cref{chap:data_oriented_perspective}): a centralized infrastructure providing independent and composable services meeting the end-to-end needs of data pipelines.
+}
+
+\section{Data as a blueprint - Process driven design of Data Platforms}
+\label{sec:process-driven-design}
+\input{parts/methods/chapters/process_driven_design.tex}
+
+\section{LLM guided metadata exploration}
+\label{sec:llm-guided-metadata-exploration}\
+\input{parts/methods/chapters/llm4bi.tex}
