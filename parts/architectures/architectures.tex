@@ -5,6 +5,16 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{STGraph - A Multistore system for Digital Twins}
+\chapter{STGraph: A Multistore system for Digital Twin Data}
 \label{chap:stgraph}
 \input{parts/architectures/chapters/data_model.tex}
+
+\begin{partsummary}
+
+This part addressed the first two steps of the progression outlined at the close of \Cref{chap:data_oriented_perspective}: proposing a general-purpose schema for the data architecture of a Digital Twin, and proposing a data model, and a consequent system to manage, integrate and represent Digital Twin data.
+
+\Cref{chap:dataplat} addressed the first step, through the design of a data platform for the AGRITECH precision agriculture project. The requirements identified there, arising directly from the volume, variety, velocity, and veracity of the data produced by six independently developed research activities, motivated a reference architecture organized around independent, composable modules for ingestion, storage, data processes, management, and exploitation, together with a domain-level conceptual schema generalizing the entities recurring across these activities into agents, environments, measurements, and tasks. \Cref{chap:datamodel-dt} addressed the second step, showing that implementing this conceptual schema relationally exposes two difficulties characteristic of Digital Twin data more generally: the dynamic, time-varying relationships among entities, which relational schemas can only represent through proliferating association tables, and the rigidity such schemas impose on later extension. STGraph, the multistore system presented in that chapter, addressed both difficulties by representing entities and their evolving relationships as a spatio-temporal property graph, while delegating the high-volume time-series data such entities produce to a dedicated time-series store connected to the graph through virtual edges.
+
+Once a Digital Twin's data is integrated and represented through this reconciled layer, it becomes possible to explore the functionality such integration newly enables; \Cref{part:methods-applications} does so directly, illustrating applications built on top of the platform and data model presented in this part. At the same time, the growing complexity of these data representations, and of the infrastructure required to support them, raises a complementary question: how such complexity can be managed, and made tractable for the humans who must still interact with it. \Cref{part:methods-applications} also explores methods addressing this question, aimed at easing human interaction with increasingly complex data representations and the systems built around them.
+
+\end{partsummary}

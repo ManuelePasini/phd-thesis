@@ -1,15 +1,17 @@
 \label{chap:datamodel-dt}
 
 
-\Cref{chap:dataplat} proposes a generic data architecture of an individual Digital Twin, first through the reference architecture and requirements analysis of \Cref{sec:dataplat-refarch,sec:dataplat-characterization}, and then through the domain-level conceptual schema of \Cref{sec:dataplat-datamodel}, which represents the AGRITECH domain in terms of agents, environments, measurements, and tasks. That architecture, however, focuses mainly on system standardization and the conceptual logical organization of data in it through the proposal of a software infrastructure necessary to sustain the data pipelines collecting and integrating data and the application-level functionality of a hypothetical Digital Twin, but does not address the problem of the conceptual representation of such data in terms of the data model needed to efficiently integrate and query the data flowing through the platform, nor does it address the physical data management systems needed to implement such a model.
+\Cref{chap:dataplat} proposes, within the AGRITECH project, a generic data architecture suitable for Digital Twins, first through the reference architecture and requirements analysis of \Cref{sec:dataplat-refarch,sec:dataplat-characterization}, and then through the domain-level conceptual schema of \Cref{sec:dataplat-datamodel}, which represents the AGRITECH domain in terms of agents, environments, measurements, and tasks. That architecture, however, focuses mainly on system standardization and the conceptual logical organization of data in it through the proposal of a software infrastructure necessary to sustain the data pipelines collecting and integrating data and the application-level functionality of a hypothetical Digital Twin, but does not address the problem of the logical representation of such data in terms of the data model needed to efficiently integrate and query the data flowing through the platform, nor does it address the physical data management systems needed to implement such a model.
 
-A first, natural candidate is to implement the conceptual, object-oriented schema of \Cref{sec:dataplat-datamodel} through a relational model and DBMS, as it is standard practice for structured, schema-first data. However, while a relational DBMS are quite efficient in storing and querying long series of data, such as the ones produced by sensors attached to the physical entity in a Digital Twin, they expose two difficulties that are at the same time characteristic of precision agriculture and , more generally, Digital Twin data. The first concerns the dynamic relationships among entities. Several of the relationships identified in \Cref{sec:dataplat-datamodel}, such as which physical device realizes which logical role, which sector a device is currently assigned to, which thesis is being tested on which sector, do not hold once and for all, but only for a bounded interval of time, and are expected to change repeatedly over a Digital Twin's operational life. Being many-to-many relationships, representing them in a relational model requires dedicated association tables carrying explicit validity intervals, and reconstructing even a moderately complex configuration (i.e. which devices were assigned to which sector, and when) requires joining across several of such tables; as a consequence query performances tend to degrate and maintaining consistence through such table is an extremey time consuming and error-prone task. Furthermore, as these dynamic relationships accumulate, the resulting schema increasingly resembles a network of interconnected entities in which the connections themselves, and their evolution over time, matter as much as the entities they relate: a setting for which the relational model, built around fixed tables and predetermined join paths, is not a natural fit, and towards which graph data models are more directly suited. The second difficulty concerns extensibility: a relational schema fixes, in advance, the set of tables and relationships a schema can represent, so that supporting a new kind of entity, or a new kind of relationship between existing entities, as new functionality is added to the platform, generally requires revising the schema itself -- the same rigidity \Cref{chap:digital_twins,chap:data_oriented_perspective} identified as an obstacle to standardization across evolving, heterogeneous Digital Twin deployments.
+A first, natural candidate is to implement the conceptual, object-oriented schema of \Cref{sec:dataplat-datamodel} through a relational model and DBMS, as it is standard practice for structured, schema-first data. However, while relational DBMSs are quite efficient in storing and querying long series of data, such as the ones produced by sensors attached to the physical entity in a Digital Twin, they expose two difficulties that are at the same time characteristic of precision agriculture and, more generally, Digital Twin data. The first concerns the dynamic relationships among entities. Several of the relationships identified in \Cref{sec:dataplat-datamodel}, such as which physical device realizes which logical role, which sector a device is currently assigned to, which thesis is being tested on which sector, do not hold once and for all, but only for a bounded interval of time, and are expected to change repeatedly over a Digital Twin's operational life. Being many-to-many relationships, representing them in a relational model requires dedicated association tables carrying explicit validity intervals, and reconstructing even a moderately complex configuration (i.e. which devices were assigned to which sector, and when) requires joining across several of such tables; as a consequence query performance tends to degrade, and maintaining consistency across such tables is an extremely time-consuming and error-prone task. Furthermore, as these dynamic relationships accumulate, the resulting schema increasingly resembles a network of interconnected entities in which the connections themselves, and their evolution over time, matter as much as the entities they relate: a setting for which the relational model, built around fixed tables and predetermined join paths, is not a natural fit, and towards which graph data models are more directly suited. The second difficulty concerns extensibility: a relational schema fixes, in advance, the set of tables and relationships a schema can represent, so that supporting a new kind of entity, or a new kind of relationship between existing entities, as new functionality is added to the platform, generally requires revising the schema itself. This is the same rigidity that \Cref{chap:digital_twins,chap:data_oriented_perspective} identified as an obstacle to standardization across evolving, heterogeneous Digital Twin deployments.
 
 These two difficulties motivate considering a graph data model for the entities characterized in \Cref{sec:dataplat-datamodel} and their relationships. Graphs represent entities and relationships uniformly, as nodes and edges, without committing in advance to a fixed schema, so that new entity or relationship types can be introduced without revising an existing structure; and they can represent the temporal evolution of a relationship as a property of the edge realizing it, rather than as an artifact of the physical schema. At the same time, Digital Twin data is not only about the graph of relatively stable entities: it also includes the high-volume, high-frequency time-series data produced by sensors and devices, identified in \Cref{sec:dataplat-characterization} as a defining characteristic of the domain. A graph model well suited to representing entities and their evolving relationships is not, by itself, designed to efficiently store and query such high-frequency time-series; conversely, a data management system optimized for time-series is not designed to represent the rich, evolving topology connecting them to the entities that produce them. This coexistence of graph and time-series data motivates the data model, and the physical system necessary to implement it, presented in this chapter.
 
+This coexistence is not specific to precision agriculture, but reflects the distinction between \emph{static} and \emph{dynamic} information introduced by the ISO 23247-3 standard and discussed in \Cref{sec:dt_data_categories}. Static information, such as the identity and nominal characteristics of an entity, together with the relationships among entities, which change only occasionally, behaves as master data: it is low in volume and velocity, and is naturally represented as a graph of slowly evolving entities. Dynamic information, such as the observations continuously produced while the physical entity operates, is high in volume and velocity, and is naturally represented as time-series. The physical separation adopted by STGraph, which stores the former in a graph store and the latter in a time-series store, directly mirrors this distinction, which is what makes the approach applicable to Digital Twin data in general rather than to a single domain.
+
 The following section presents STGraph, a data model, and its own multistore implementation, that represents slowly evolving entities as a spatio-temporal property graph while managing high-volume, georeferenced time-series through a dedicated time-series store, connecting the two through a shared, efficient representation.
 %
-Such system has been evaluated in hybrid graph-time-series workloads typical of Digital Twins applications, showing that it can reduce storage footprint and improve ingestion and query performance with respect to temporal graph and multistore baselines.
+The system has been evaluated on hybrid graph-time-series workloads, on datasets that exhibit the data pattern of a Digital Twin (\Cref{sec:stgraph-datasets}), showing that it can reduce storage footprint and improve ingestion and query performance with respect to temporal graph and multistore baselines.
 
 
 \section{Introduction}
@@ -20,7 +22,7 @@ On the one hand, modern applications require flexible data models capable of rep
 On the other hand, they require optimized mechanisms for ingesting, storing, and querying massive collections of geo-referenced time-series generated by these connected entities.
 Relational systems provide mature query capabilities but lack the flexibility required to manage schemaless data.
 Graph systems offer expressive representations of complex relationships; however, they are generally not designed to efficiently handle high-volume time-series data.
-In this paper, we present \ourapproach, a multistore for spatio-temporal property graphs that combines the expressiveness of spatio-temporal property graph data models with the efficiency required for time-series.
+This chapter presents \ourapproach, a multistore for spatio-temporal property graphs that combines the expressiveness of spatio-temporal property graph data models with the efficiency required for time-series.
 \ourapproach exposes high-volume time-series events as logical graph nodes while persisting and processing them in a dedicated store.
 \ourapproach connects graph entities and time-series events through virtual edges, avoids materializing one graph edge per event, and pushes event-local operators to the time-series store.
 Our evaluation against temporal graph and multistore baselines shows that this design reduces storage footprint and improves ingestion and query performance on graph-time-series workloads.
@@ -87,7 +89,7 @@ The contributions of \ourapproach are the following.
     \item An experimental evaluation against (temporal) graph and multimodel baselines, showing lower storage footprint and faster ingestion/query execution on graph-time-series workloads.
 \end{enumerate}
 
-The paper is organized as follows.
+The remainder of this chapter is organized as follows.
 \Cref{sec:related} compares \ourapproach with the state-of-the-art contributions.
 \Cref{sec:formal} defines the spatio-temporal property graph.
 \Cref{sec:stgraph} introduces the multistore storage layout while
@@ -167,7 +169,7 @@ A property graph is a tuple:
 $G = (N, E, L, P, \ell, \rho)$
 where: $N$ is the set of nodes, $E \subseteq N \times N$ is the set of directed edges, $L$ is the set of labels, $P$ is the set of key-value properties, $\ell: N \cup E \to L$ maps each node/edge to a label, $\rho: N \cup E \to 2^P$ maps each node/edge to a set of key-value properties.
 \end{definition}
-For the sake of brevity, in the remainder of the paper we will refer to node/edge labels and properties using the dot notation (e.g., $n.name$ for the name property of node $n$ and $n.label$ for the $\ell(n)$).
+For the sake of brevity, in the remainder of this chapter we will refer to node/edge labels and properties using the dot notation (e.g., $n.name$ for the name property of node $n$ and $n.label$ for the $\ell(n)$).
 
 Given the temporal domain $\mathbb{T}$ and the set of spatial objects $\mathbb{S}$, we extend \Cref{def:pg} to a spatio-temporal property graph.
 
@@ -237,7 +239,7 @@ n_5.label = \lbl{Parcel}&,\quad e_2.label = \lbl{HasEvent}\\
 
 % \subsubsection{Querying the graph}
 
-\ourapproach supports conjunctive path queries with continuous temporal semantics\footnote{Regular path queries are out of the scope of the paper.}.
+\ourapproach supports conjunctive path queries with continuous temporal semantics\footnote{Regular path queries are out of the scope of this chapter.}.
 Following the Open Cypher reference \cite{francis2018cypher}, a query is a composition of extended relational-algebra operators.
 
 \begin{definition}[Relation]
@@ -1182,14 +1184,17 @@ Experiments were conducted on a cluster of machines equipped with an Intel Xeon 
 %In the following, we first describe the datasets and queries used for testing, and then we present the results of the evaluation.
 
 \subsection{Datasets}
+\label{sec:stgraph-datasets}
 
 For the testing datasets, \Cref{tab:datasets} summarizes the number of nodes and edges and the average time-series length. 
 Overall, (1) \textsf{MIV} contains thousands of shorter time-series (up to $2.6 \cdot 10^3$ events on average), while \textsf{SB} contains fewer but longer time-series (up to $1.5\cdot10^6$ events on average), and (2) the number of time-series events is orders of magnitude higher than the volume of master data, which motivates the need for a hybrid data structure and optimized query execution.
+As for AGRITECH in \Cref{chap:dataplat}, neither dataset was produced by a system described as a Digital Twin, but both exhibit the data pattern characterizing one; the evaluation therefore assesses STGraph on the kind of data a Digital Twin produces and consumes, in two domains different from the one in which its requirements were identified.
 
 \subsubsection{Medical Information Mart for Intensive Care IV (\textsf{MIV})}
 
 \textsf{MIV} \cite{johnson2020mimic} is a large deidentified dataset of patients admitted to the emergency department or an intensive care unit.
 It contains data for patients admitted to an ICU and incorporates health-care time-series data.
+Patients are the physical entities being monitored: their demographic information and admissions constitute slowly evolving master data, while vital signs, recorded continuously during their stay, constitute the dynamic observations.
 Large is the full version of the dataset, while Small ($\times\frac{1}{100}$) and Medium ($\times\frac{1}{10}$) are downscaled versions.
 Mimic queries range over the whole graph.
 Q1 filters on healthcare events.
@@ -1199,6 +1204,7 @@ Q3 combines Q1 and Q2 by averaging values of filtered time-series.
 \subsubsection{SmartBench (\textsf{SB})}
 \textsf{SB}~\cite{DBLP:journals/pvldb/GuptaCMY20} is a benchmark derived from a real-world smart building monitoring system.
 It models devices composed of sensors performing high-frequency measurements and the spatial structure of the monitored environment.
+These entities map directly onto the zones of the AGRITECH conceptual schema (\Cref{sec:dataplat-datamodel}): sensors and devices correspond to the \emph{agent} zone, the spaces of the building, hierarchically organized into floors and rooms, to the \emph{environment} zone, as a farm is organized into parcels, and the observations produced by the sensors to the \emph{sensing} zone; being a monitoring system, \textsf{SB} has no counterpart for the \emph{acting} zone.
 \textsf{SB} provides a tool to generate datasets of increasing scaling factors: Small ($\times1$), Medium ($\times4$), and Large ($\times100$); XL is a variation of M with artificially-extended time-series.
 
 \textsf{SB} also defines queries that differ in terms of filtering conditions, aggregation functions, and selection criteria.
@@ -1581,7 +1587,7 @@ Furthermore, several large instances cannot be managed by AeonG or HyGraph.
 
 \section{Conclusion and future directions}\label{sec:conclusion}
 
-This paper introduced \ourapproach, a multistore system for managing spatio-temporal property graphs whose data combine slowly evolving graph structures with high-volume time-series.
+This chapter introduced \ourapproach, a multistore system for managing spatio-temporal property graphs whose data combine slowly evolving graph structures with high-volume time-series.
 \ourapproach exposes a unifying spatio-temporal property graph abstraction while physically separating graph nodes and edges, stored in GS, from time-series events, stored in TS.
 The connection between the two stores is provided at query time through virtual edges, avoiding the materialization of one graph edge per event.
 \ourapproach supports temporal validity for nodes, edges, and properties, and rewrites query plans so that event-local operators can be pushed down to TS.
@@ -1595,12 +1601,3 @@ Several research directions remain open.
 (iv) targets historical queries, supporting streaming graph-time-series workloads would enable real-time monitoring and decision-making over continuously evolving data.
 
 
-\begin{partsummary}
-
-This part addressed the first two steps of the progression outlined at the close of \Cref{chap:data_oriented_perspective}: proposing a general-purpose schema for the data architecture of a Digital Twin, and proposing a data model, and a consequent system to manage, integrate and represent Digital Twin data.
-
-\Cref{chap:dataplat} addressed the first step, through the design of a data platform for the AGRITECH precision agriculture case study. The requirements identified there, arising directly from the volume, variety, velocity, and veracity of the data produced by six independently developed research activities, motivated a reference architecture organized around independent, composable modules -- ingestion, storage, data processes, management, and exploitation -- together with a domain-level conceptual schema generalizing the entities recurring across these activities into agents, environments, measurements, and tasks. \Cref{chap:datamodel-dt} addressed the second step, showing that implementing this conceptual schema relationally exposes two difficulties characteristic of Digital Twin data more generally: the dynamic, time-varying relationships among entities, which relational schemas can only represent through proliferating association tables, and the rigidity such schemas impose on later extension. STGraph, the multistore system presented in that chapter, addressed both difficulties by representing entities and their evolving relationships as a spatio-temporal property graph, while delegating the high-volume time-series data such entities produce to a dedicated time-series store connected to the graph through virtual edges.
-
-Once a Digital Twin's data is integrated and represented through this reconciled layer, it becomes possible to explore the functionality such integration newly enables; \Cref{part:methods-applications} does so directly, illustrating applications built on top of the platform and data model presented in this part. At the same time, the growing complexity of these data representations, and of the infrastructure required to support them, raises a complementary question: how such complexity can be managed, and made tractable for the humans who must still interact with it. \Cref{part:methods-applications} also explores methods addressing this question, aimed at easing human interaction with increasingly complex data representations and the systems built around them.
-
-\end{partsummary}

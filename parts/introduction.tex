@@ -35,6 +35,12 @@ Achieving interoperability is therefore becoming a fundamental requirement for t
 %
 Beyond enabling information exchange, interoperability provides the foundation for integrating independently developed digital twins into larger ecosystems, where heterogeneous information can be jointly analyzed and exploited to support increasingly complex cyber-physical scenarios.
 %
+Interoperability, however, cannot be pursued directly on top of the current, fragmented landscape.
+%
+Independently developed digital twins can exchange and meaningfully reuse each other's information only if they share, at least in part, common foundations: a common infrastructure through which their data is acquired, stored, and made available, and common data models through which it is represented and interpreted.
+%
+Standardization, understood as the definition of such shared foundations, is therefore a necessary precondition for interoperability, and one that is still largely missing in current digital twin implementations.
+%
 This challenge can be considered from two complementary dimensions.
 %
 The first concerns the software infrastructure supporting digital twins. Current implementations are typically developed as self-contained solutions, creating the need for common architectural foundations capable of supporting the deployment, integration, and management of heterogeneous digital twins within shared environments.
@@ -44,14 +50,12 @@ The second concerns the data management and semantic dimension. Even when digita
 Data originating from different digital twins may differ not only in their structure and format, but also in their temporal characteristics, granularity, metadata, and underlying semantics, making their integration and joint querying a non-trivial data management problem.
 %
 Addressing these challenges requires common approaches to data modeling, integration, and governance, together with architectural foundations capable of supporting the heterogeneous and continuously evolving workloads associated with digital twin applications.
-%
-Taken together, these requirements motivate the development of software infrastructures specifically designed to support digital twin ecosystems rather than individual digital twins in isolation.
 
-These requirements point toward the need for dedicated software infrastructures capable of supporting the deployment, management, and integration of heterogeneous digital twins within a shared environment.
+Taken together, these requirements point toward the need for dedicated software infrastructures capable of supporting the deployment, management, and integration of heterogeneous digital twins within a shared environment, rather than individual digital twins in isolation.
 %
-Such infrastructures can be envisioned as Digital Twin Platforms (DTPs): software environments designed around the specific data and operational requirements of digital twin systems, providing the architectural and data management foundations required to deploy, integrate, and manage multiple digital twins within a common environment.
+In this thesis, such infrastructures are referred to as Digital Twin Platforms (DTPs), formally defined in \Cref{sec:dtp}.
 %
-A Digital Twin Platform therefore provides a natural architectural foundation for addressing the fragmentation of current digital twin solutions, bringing together the infrastructure and data management mechanisms required to support digital twin ecosystems.
+By providing common infrastructure and data management mechanisms to the digital twins it hosts, a Digital Twin Platform offers a natural foundation for standardizing how digital twins are built and, consequently, for addressing the fragmentation of current digital twin solutions.
 %
 The importance of such foundations is likely to become even more pronounced with the recent emergence of large language models and increasingly capable agentic systems.
 %
@@ -66,45 +70,72 @@ In this context, Digital Twin Platforms can provide the common technological fou
 \section*{Overview and Contribution}
 \addcontentsline{toc}{section}{Overview and Contribution}
 
-This thesis approaches these challenges from a data-oriented perspective, arguing that the development of interoperable Digital Twin ecosystems should be grounded in the data they collect, produce, and exchange.
+This thesis approaches these challenges from a data-oriented perspective, arguing that the path toward interoperable Digital Twin ecosystems should be grounded in the data digital twins collect, produce, and exchange.
 %
-Rather than considering the digital twin primarily as a standalone software application, the work first investigates the characteristics and requirements of the underlying data produced and exploited by digital twins, using them as the basis for identifying suitable data models and mechanisms for their integration and management.
+Interoperability is recognized as the ultimate objective motivating this work, but it is not its direct object: the thesis addresses instead the standardization of the data dimension of digital twins, which constitutes its necessary precondition.
 %
-From this perspective, establishing common data models and, where possible, standardized representations for digital twins constitutes a fundamental step toward interoperability and, consequently, toward the design of effective Digital Twin Platforms.
+Rather than considering the digital twin primarily as a standalone software application, the work first investigates the characteristics and requirements of the underlying data produced and exploited by digital twins, using them as the basis for identifying a suitable data architecture, i.e., the infrastructure and the data models through which such data is acquired, stored, represented, and managed.
 %
-Once these data requirements and representations have been established, the corresponding software infrastructure can be designed according to the characteristics of the data and the operational requirements of digital twin systems.
+From this perspective, establishing a common data architecture and, where possible, standardized representations for digital twins constitutes a fundamental step toward interoperability and, consequently, toward the design of effective Digital Twin Platforms.
 %
-This includes supporting heterogeneous data sources, different data models and formats, varying collection frequencies, and continuous data streams, while providing the scalability and architectural capabilities required by distributed digital twin deployments.
+The thesis therefore follows a bottom-up perspective, moving from the characteristics and requirements of digital twin data, through the data infrastructure required to collect and manage it, toward the data models required to represent it consistently.
+
+This progression is carried out at the level of an individual digital twin, but with the ecosystem in view.
 %
-The thesis therefore follows a bottom-up perspective, moving from data characteristics and requirements, through data modeling and management, toward the architectural foundations required to support interoperable Digital Twin ecosystems.
+Once the data architecture of a digital twin has been standardized, the same architecture can host one digital twin as well as a hundred, each conforming to the same infrastructure and data models.
 %
-Within this perspective, the Digital Twin Platform represents the architectural context in which these elements are brought together: a common software foundation in which digital twins can be deployed and managed, while their heterogeneous data can be integrated, governed, and exploited across the ecosystem.
+Standardization at the level of the individual digital twin is therefore conceived as scalable to a Digital Twin Ecosystem, providing the common foundation on which interoperability among the hosted digital twins can subsequently be pursued.
 %
-Such infrastructures can be envisioned as a Digital Twin Platform:
-in this thesis, such term is used to denote a standardized framework that supports the modeling, deployment, management, and interoperability of ecosystems of Digital Twins throughout their lifecycle.
+The interoperability mechanisms themselves, such as the semantic alignment of independently defined data models, remain instead outside the main scope of this thesis, and are only preliminarily explored.
+
+Within this perspective, the Digital Twin Platform (\Cref{sec:dtp}) represents the context in which these elements are brought together.
 %
-Rather than treating data management as a supporting component of the platform, this perspective places data at the core of its design, providing a foundation for addressing the architectural requirements of interoperable digital twin ecosystems.
+Rather than treating data management as a supporting component of the platform, this perspective places data at the core of its design.
 %
-Accordingly, the thesis investigates the Digital Twin Platform not merely as an infrastructure for hosting digital twins, but as a software and data management foundation through which heterogeneous digital twins can be integrated into interoperable ecosystems.
+Accordingly, the thesis investigates the Digital Twin Platform not merely as an infrastructure for hosting digital twins, but as the data management foundation through which heterogeneous digital twins can be standardized and, ultimately, made interoperable.
 
 \subsection*{Problem Statement}
 
-The goal of this thesis is to contribute to the development of interoperable Digital Twin ecosystems through the investigation of architectures and methods for Digital Twin Platforms, adopting a data-oriented perspective.
-The research focuses on understanding the data management challenges arising from Digital Twin applications and on identifying the models, technologies, methods, and architectural foundations required to address them within a common platform.
+The goal of this thesis is to lay the data foundations of Digital Twin Platforms, investigating architectures and methods for the standardization of Digital Twin data as a necessary step toward interoperable Digital Twin ecosystems.
+The research focuses on understanding the data management challenges arising from Digital Twin applications and on identifying the data infrastructure, data models, and methods required to address them within a common platform.
 %
 Working towards this goal, the thesis investigates the following research questions:
 
 \begin{rqlist}
 \item[RQ1] \textit{What are the data characteristics and requirements emerging from Digital Twin applications, and to what extent can existing data management technologies satisfy them?}
 
-\item[RQ2] \textit{How can data models, data management approaches, and governance mechanisms support the integration and interoperability of heterogeneous Digital Twin data?} 
+\item[RQ2] \textit{How can data models, data management approaches, and governance mechanisms provide a standardized representation of heterogeneous Digital Twin data, as a foundation for its integration and interoperability?}
 
-\item[RQ3] \textit{How can software architectures support the deployment and management of heterogeneous Digital Twins while satisfying their data and operational requirements?} 
+\item[RQ3] \textit{How can data architectures, i.e., the data platforms through which Digital Twin data is ingested, stored, processed, and made available, be designed to satisfy the data and operational requirements of heterogeneous Digital Twins?}
 
 \end{rqlist}
 
+Together, these questions follow the bottom-up perspective adopted throughout the thesis, moving from the characteristics and requirements of Digital Twin data toward the data infrastructure and data models required to standardize it. The answers to these questions contribute to the definition of the data foundations of a Digital Twin Platform, conceived as a common environment in which Digital Twins can be deployed and managed and, once standardized, made interoperable. \Cref{tab:rq-chapters} summarizes where each research question is addressed.
 
-Together, these questions follow the bottom-up perspective adopted throughout the thesis, moving from the characteristics and requirements of Digital Twin data toward the data models, management mechanisms, governance approaches, and software architectures required to support interoperable Digital Twin ecosystems. The answers to these questions contribute to the definition of the architectural and methodological foundations of a Digital Twin Platform, conceived as a common environment for the deployment, management, integration, and interoperability of ecosystems of Digital Twins.
+% DRAFT: to be revised together with the final version of the RQs
+\begin{table}[htbp]
+\centering
+\caption{Research questions and the chapters addressing them.}
+\label{tab:rq-chapters}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{p{1.2cm} p{4.8cm} p{7cm}}
+\toprule
+\textbf{RQ} & \textbf{Chapters} & \textbf{Contribution} \\
+\midrule
+RQ1
+& \Cref{chap:data_oriented_perspective,chap:dataplat,chap:stgraph}
+& Characterization of Digital Twin data (\Cref{sec:dt_data}); requirements of a real domain (\Cref{sec:dataplat-characterization}); limits of existing data management technologies (\Cref{sec:related}). \\
+\addlinespace
+RQ2
+& \Cref{chap:dataplat,chap:stgraph,chap:methods}
+& Domain-level conceptual schema (\Cref{sec:dataplat-datamodel}); STGraph data model and multistore (\Cref{chap:stgraph}); LLM-guided metadata exploration (\Cref{sec:llm-guided-metadata-exploration}). \\
+\addlinespace
+RQ3
+& \Cref{chap:dataplat,chap:methods}
+& Reference architecture and implementation of the AGRITECH data platform (\Cref{sec:dataplat-refarch,sec:dataplat-implementation}); process-driven design of data platforms (\Cref{sec:process-driven-design}). \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 \subsection*{Contributions}
 \mpa{list of publications with brief description}
@@ -124,7 +155,7 @@ Finally, in \Cref{chap:data_oriented_perspective} and within the broader vision 
 \paragraph{Architectures}
 In \Cref{part:architectures}, the thesis investigates the architectural foundations required to support interoperable digital twin ecosystems within a Digital Twin Platform.
 %
-Specifically, in \Cref{chap:dataplat} and within a national research project, the thesis explores a data platform solution tailored for precision agriculture, identifying and illustrating the requirements of digital twin applications and how they can be addressed through a general-purpose software infrastructure.
+Specifically, \Cref{chap:dataplat} presents the data platform designed within AGRITECH, an Italian national research project on precision agriculture funded under the PNRR, whose applications generate the same kind of data a digital twin would; through this project, the thesis identifies the requirements of such data and illustrates how they can be addressed through a data platform.
 %
 This work provides a concrete architectural perspective on how the data and operational requirements identified in the foundations of the thesis can be translated into platform capabilities.
 %

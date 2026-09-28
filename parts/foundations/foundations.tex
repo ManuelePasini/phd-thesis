@@ -11,4 +11,16 @@
 \label{chap:data_oriented_perspective}
 \input{parts/foundations/chapters/data_oriented.tex}
 
+\begin{partsummary}
 
+The discussion in this chapter provides the foundation for positioning the research presented in the remainder of this thesis. Achieving interoperability across independently developed Digital Twins is commonly regarded, in both the research literature and in large-scale initiatives such as the UK's National Digital Twin programme, as one of the more advanced stages in the maturity of Digital Twin deployments \cite{klar2024maturity,dtarch}. As this chapter has already argued, this maturity is primarily a property of the data a Digital Twin exchanges, rather than of the software that produces or consumes it: two Digital Twins built on incompatible software stacks can still interoperate if they share a common understanding of their data, while two Digital Twins sharing the same software stack may fail to interoperate if their data representations diverge. This thesis adopts the perspective that interoperability, understood in this sense, is a desirable objective, but one that cannot be pursued directly without first standardizing the data dimension on which it depends.
+
+Before independently developed Digital Twins can interoperate, it is necessary to establish what constitutes a Digital Twin and, in particular, how its data is structured, represented, managed, and exchanged. Doing so requires addressing the software and data dimensions separately. While both are necessary to fully characterize a Digital Twin, this thesis deliberately focuses on the data dimension, precisely the dimension on which interoperability chiefly depends, leaving the standardization of software architectures, interfaces, and services outside its scope.
+
+Within this scope, standardization proceeds through a sequence of steps that mirrors well-established data-intensive methodologies such as CRISP-DM. Before any infrastructure or representation can be designed, it is first necessary to understand the data itself, its sources, its heterogeneity, and the requirements it imposes, as briefly introduced in \Cref{sec:dt_data}. Only once this understanding is in place does it become possible to design the infrastructure needed to collect and manage that data, and subsequently to define a coherent and efficient representation for it.
+
+This thesis carries out this progression at the level of an individual Digital Twin. Once Digital Twin data is characterized, it addresses the infrastructural step through the investigation of data platforms as the foundation for acquiring, storing, processing, and making Digital Twin data available, and the representational step through the definition of data models and associated governance mechanisms capable of providing a consistent representation of the information produced and consumed within the Digital Twin.
+
+To ground this progression in real data, the thesis relies on AGRITECH, an Italian national research project on precision agriculture funded under the PNRR, whose applications collect, produce, and consume the same kind of data a Digital Twin would (\Cref{chap:dataplat}).
+
+\end{partsummary}
